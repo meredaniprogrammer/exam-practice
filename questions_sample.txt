@@ -1,0 +1,27 @@
+1. What is the capital of France?
+A. London
+B. Berlin
+C. Paris *
+D. Madrid
+E. Rome
+
+2. Which planet is known as the Red Planet?
+A. Earth
+B. Mars *
+C. Jupiter
+D. Venus
+E. Saturn
+
+3. What is 2 + 2?
+A. 3
+B. 4 *
+C. 5
+D. 22
+E. 0
+
+4. Which language is primarily used for web pages?
+A. Python
+B. Java
+C. HTML *
+D. C++
+E. Go

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Practice Test</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section id="front" class="card">
+        <h1 class="title">Practice Test</h1>
+        <p class="lead">Please upload your question file to practice</p>
+
+        <div class="actions">
+          <label class="file-label">
+            <input id="fileInput" type="file" accept=".txt" />
+            <span>Select questions file (.txt)</span>
+          </label>
+
+          <button id="startBtn" class="btn primary" disabled>Start Practice</button>
+          <a id="bookLink" class="btn ghost" href="questions_sample.txt" download>Open Textbook (sample)</a>
+        </div>
+      </section>
+
+      <section id="practice" class="card hidden">
+        <div class="topbar">
+          <button id="backHome" class="btn ghost">Home</button>
+          <div class="progress-meta">Page <span id="pageNum">1</span></div>
+        </div>
+
+        <form id="questionsForm"></form>
+
+        <div class="nav">
+          <button id="prevBtn" class="btn ghost" disabled>Previous</button>
+          <div class="spacer"></div>
+          <button id="nextBtn" class="btn primary">Next</button>
+        </div>
+      </section>
+
+      <section id="result" class="card hidden center">
+        <h2>Result</h2>
+        <div id="scoreCircle" class="score-circle">
+          <div class="score-value" id="scoreValue">0%</div>
+        </div>
+        <div id="scoreMessage" class="score-message"></div>
+        <div class="result-actions">
+          <button id="retryBtn" class="btn">Retry</button>
+          <button id="reviewBtn" class="btn">Review Questions</button>
+          <button id="homeBtn" class="btn ghost">Back Home</button>
+        </div>
+      </section>
+
+      <section id="review" class="card hidden">
+        <div class="topbar">
+          <button id="backToResult" class="btn ghost">Back to Results</button>
+          <div class="progress-meta">Review</div>
+        </div>
+        <div id="reviewContent"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
