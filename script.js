@@ -26,7 +26,7 @@
   const backToResult = document.getElementById('backToResult');
 
   let questions = [];
-  let answers = []; // selected option index per question or null
+  let answers = []; // selected option(s) per question: number|null for single-answer, array for multi-answer
   let currentPage = 0;
 
   fileInput.addEventListener('change',()=>{
@@ -57,16 +57,23 @@
   backToResult.addEventListener('click',()=>{ showResult(); });
 
   prevBtn.addEventListener('click',()=>{
-    if(currentPage>0) { currentPage--; renderPage(); }
+    if(currentPage>0) { currentPage--; renderPage(); try{ window.scrollTo({top:0,behavior:'auto'}); }catch(e){ window.scrollTo(0,0); } }
   });
 
   nextBtn.addEventListener('click',()=>{
     const maxPage = Math.ceil(Math.min(questions.length, testLength)/pageSize)-1;
-    if(currentPage < maxPage){ currentPage++; renderPage(); }
+    if(currentPage < maxPage){ currentPage++; renderPage(); try{ window.scrollTo({top:0,behavior:'auto'}); }catch(e){ window.scrollTo(0,0); } }
     else { // final: compute results
       showResult();
     }
   });
+
+  // ensure when navigating pages we scroll to top
+  function goToPage(page){
+    currentPage = page;
+    renderPage();
+    try{ window.scrollTo({top:0,behavior:'auto'}); }catch(e){ window.scrollTo(0,0); }
+  }
 
   function showFront(){ front.classList.remove('hidden'); practice.classList.add('hidden'); result.classList.add('hidden'); }
   function showPractice(){ front.classList.add('hidden'); practice.classList.remove('hidden'); result.classList.add('hidden'); }
@@ -91,15 +98,25 @@
         const label = document.createElement('label');
         label.className = 'option-label';
         const input = document.createElement('input');
-        input.type = 'checkbox';
+        const multi = Array.isArray(q.correctIndices) && q.correctIndices.length > 1;
+        input.type = multi ? 'checkbox' : 'radio';
         input.name = `q${i}`;
         input.id = id;
-        input.checked = answers[i] === idx;
+        if(multi){ input.checked = Array.isArray(answers[i]) && answers[i].includes(idx); }
+        else { input.checked = answers[i] === idx; }
         input.addEventListener('change',(e)=>{
-          // make exclusive per question
-          const checkboxes = qWrap.querySelectorAll('input[type=checkbox]');
-          checkboxes.forEach(cb=>{ if(cb!==input) cb.checked = false; });
-          answers[i] = input.checked ? idx : null;
+          if(multi){
+            if(!Array.isArray(answers[i])) answers[i] = [];
+            if(input.checked){
+              if(!answers[i].includes(idx)) answers[i].push(idx);
+            } else {
+              const p = answers[i].indexOf(idx);
+              if(p>-1) answers[i].splice(p,1);
+              if(answers[i].length === 0) answers[i] = null;
+            }
+          } else {
+            answers[i] = input.checked ? idx : null;
+          }
         });
         const span = document.createElement('span');
         span.className = 'option-text';
@@ -127,21 +144,23 @@
     }
   }
 
-  // Shuffle questions array and shuffle options per question while preserving correctIndex
+  // Shuffle questions array and shuffle options per question while preserving correctIndex/indices
   function shuffleQuestions(qs){
     shuffle(qs);
     qs.forEach(q=>{
       if(!Array.isArray(q.options) || q.options.length <= 1) return;
-      const originalIndex = q.correctIndex;
+      const originalIndices = Array.isArray(q.correctIndices) ? q.correctIndices.slice() : (typeof q.correctIndex === 'number' ? [q.correctIndex] : []);
       const order = q.options.map((_,i)=>i);
       shuffle(order);
       const newOptions = order.map(i=>q.options[i]);
-      let newCorrect = null;
-      if(typeof originalIndex === 'number'){
-        newCorrect = order.indexOf(originalIndex);
-      }
+      let newCorrectIndices = [];
+      originalIndices.forEach(orig => {
+        const ni = order.indexOf(orig);
+        if(ni > -1) newCorrectIndices.push(ni);
+      });
       q.options = newOptions;
-      q.correctIndex = newCorrect;
+      if(newCorrectIndices.length === 0) q.correctIndices = [];
+      else q.correctIndices = newCorrectIndices.sort((a,b)=>a-b);
     });
   }
 
@@ -149,7 +168,18 @@
     const limit = Math.min(questions.length, testLength);
     let correct = 0;
     for(let i=0;i<limit;i++){
-      if(answers[i] != null && answers[i] === questions[i].correctIndex) correct++;
+      const q = questions[i];
+      const correctIdxs = Array.isArray(q.correctIndices) ? q.correctIndices : (typeof q.correctIndex === 'number' ? [q.correctIndex] : []);
+      if(correctIdxs.length <= 1){
+        // single-answer scoring
+        if(answers[i] != null && answers[i] === correctIdxs[0]) correct++;
+      } else {
+        // multi-answer: require selected set to exactly match correct set
+        if(Array.isArray(answers[i])){
+          const sel = answers[i].slice().sort((a,b)=>a-b);
+          if(sel.length === correctIdxs.length && sel.every((v,idx)=>v === correctIdxs[idx])) correct++;
+        }
+      }
     }
     const pct = Math.round((correct / limit) * 100);
     scoreValue.textContent = `${pct}%`;
@@ -176,16 +206,13 @@
         const span = document.createElement('span');
         span.className = 'option-text';
         span.innerText = `${String.fromCharCode(65+idx)}. ${opt}`;
-        // mark correct / incorrect
-        if(typeof q.correctIndex === 'number' && idx === q.correctIndex){
-          label.classList.add('correct');
-        }
-        if(answers[i] != null && answers[i] === idx && answers[i] !== q.correctIndex){
-          label.classList.add('incorrect');
-        }
-        if(answers[i] != null && answers[i] === idx){
-          label.classList.add('selected');
-        }
+        // mark correct / incorrect / selected (supports multi-answer)
+        const correctIdxs = Array.isArray(q.correctIndices) ? q.correctIndices : (typeof q.correctIndex === 'number' ? [q.correctIndex] : []);
+        const isCorrect = correctIdxs.includes(idx);
+        const isSelected = (Array.isArray(answers[i]) && answers[i].includes(idx)) || answers[i] === idx;
+        if(isCorrect) label.classList.add('correct');
+        if(isSelected) label.classList.add('selected');
+        if(isSelected && !isCorrect) label.classList.add('incorrect');
         label.appendChild(span);
         opts.appendChild(label);
       });
@@ -211,7 +238,7 @@
       const qMatch = line.match(qRegex);
       if(qMatch){
         if(curQ) qs.push(curQ);
-        curQ = { text: qMatch[1].trim(), options: [], correctIndex: null };
+        curQ = { text: qMatch[1].trim(), options: [], correctIndices: [] };
         continue;
       }
       const oMatch = raw.match(optionRegex);
@@ -221,7 +248,7 @@
         if(/\*|\(correct\)|✔|\u2714/.test(optText)) isCorrect = true;
         optText = optText.replace(/\*|\(correct\)|✔|\u2714/ig,'').trim();
         curQ.options.push(optText);
-        if(isCorrect) curQ.correctIndex = curQ.options.length-1;
+        if(isCorrect) curQ.correctIndices.push(curQ.options.length-1);
         continue;
       }
       // fallback: if line doesn't match patterns, maybe it's continuation of question or option
@@ -237,7 +264,8 @@
 
     // Normalize: ensure each question has exactly options length 2-5; discard incomplete
     return qs.filter(q=>q.options.length>=2).map(q=>{
-      // If no correctIndex found, try to find option that ends with (correct) earlier, or default null
+      // ensure a correctIndices array exists for each question
+      if(!Array.isArray(q.correctIndices)) q.correctIndices = [];
       return q;
     });
   }
