@@ -1,0 +1,286 @@
+161. A nursing student asks how Bloom’s Taxonomy supports lifelong nursing practice. Which response is best?
+A. Nurses only need memorization after graduation.
+B. Nurses continue using critical thinking and clinical judgment throughout practice. *
+C. Bloom’s Taxonomy is only for school exams.
+D. Nursing avoids analysis after graduation.
+E. Memorization replaces reasoning.
+
+162. Which statement reflects lifelong learning?
+A. “I only need to memorize facts.”
+B. “I will continue developing clinical reasoning skills.” *
+C. “I will avoid critical thinking.”
+D. “I will ignore patient data.”
+E. “I will stop analyzing.”
+
+163. SATA: Which skills are essential for lifelong nursing competence?
+A. Critical thinking *
+B. Clinical judgment *
+C. Prioritization *
+D. Ignoring evidence
+E. Evaluation *
+
+164. Case: A graduate nurse struggles to recognize patient deterioration.
+What skill requires strengthening?
+A. Memorization
+B. Clinical reasoning and analysis *
+C. Repetition
+D. Ignoring
+E. Passive learning
+
+165. Which factor contributes to recognizing emergencies?
+A. Ignoring assessment findings
+B. Analyzing changes in patient condition *
+C. Memorization only
+D. Passive learning
+E. Avoiding interpretation
+
+166. Which statement reflects effective patient assessment?
+A. “I will connect assessment findings to patient needs.” *
+B. “I will memorize only.”
+C. “I will ignore symptoms.”
+D. “I will avoid analysis.”
+E. “I will stop reviewing.”
+
+167. SATA: Which nursing activities require analysis?
+A. Identifying abnormal findings *
+B. Interpreting lab values *
+C. Recognizing trends *
+D. Memorizing facts only
+E. Connecting symptoms *
+
+168. Which factor contributes to safe delegation?
+A. Random assignment
+B. Evaluating patient acuity and staff ability *
+C. Memorization only
+D. Ignoring priorities
+E. Passive learning
+
+169. Case: A nurse delegates a stable patient to assistive personnel.
+Which Bloom’s level is demonstrated?
+A. Applying *
+B. Memorization
+C. Ignoring
+D. Repetition
+E. Passive learning
+
+170. Which statement reflects safe delegation?
+A. “I will delegate without assessing the patient.”
+B. “I will consider patient stability before delegating.” *
+C. “I will memorize only.”
+D. “I will ignore staff ability.”
+E. “I will avoid analysis.”
+
+171. Which factor contributes to prioritization?
+A. Treating all problems equally
+B. Identifying the most urgent patient need *
+C. Memorization only
+D. Ignoring assessment findings
+E. Passive learning
+
+172. SATA: Which patient situations require immediate priority?
+A. Airway obstruction *
+B. Severe bleeding *
+C. Respiratory distress *
+D. Stable chronic pain
+E. Unresponsiveness *
+
+173. Which statement reflects prioritization skills?
+A. “I will identify which patient needs immediate attention.” *
+B. “I will treat all situations equally.”
+C. “I will ignore patient acuity.”
+D. “I will memorize only.”
+E. “I will avoid interpretation.”
+
+174. Case: A nurse treats a patient with respiratory distress before another patient with mild pain.
+What skill is demonstrated?
+A. Prioritization *
+B. Memorization
+C. Ignoring
+D. Passive learning
+E. Repetition
+
+175. Which factor contributes to safe medication administration?
+A. Guessing medication doses
+B. Evaluating patient-specific data before administration *
+C. Memorization only
+D. Ignoring allergies
+E. Avoiding reassessment
+
+176. Which statement reflects medication safety?
+A. “I will assess allergies and lab values before giving medications.” *
+B. “I will memorize only.”
+C. “I will ignore patient responses.”
+D. “I will avoid reassessment.”
+E. “I will stop evaluating.”
+
+177. SATA: Which nursing actions support medication safety?
+A. Checking allergies *
+B. Evaluating lab values *
+C. Monitoring patient response *
+D. Ignoring contraindications
+E. Applying clinical judgment *
+
+178. Which factor contributes to evidence-based practice?
+A. Ignoring research
+B. Applying evidence to nursing decisions *
+C. Memorization only
+D. Passive learning
+E. Avoiding analysis
+
+179. Case: A nurse changes interventions based on current evidence.
+Which Bloom’s level is demonstrated?
+A. Evaluating *
+B. Memorization
+C. Ignoring
+D. Repetition
+E. Passive learning
+
+180. Which statement reflects evidence-based nursing care?
+A. “I will combine evidence with clinical judgment.” *
+B. “I will memorize only.”
+C. “I will avoid reassessment.”
+D. “I will ignore outcomes.”
+E. “I will stop analyzing.”
+
+181. Which factor contributes to individualized patient teaching?
+A. Using the same approach for every patient
+B. Adapting teaching to patient needs and understanding *
+C. Memorization only
+D. Ignoring learning barriers
+E. Passive learning
+
+182. SATA: Which nursing activities demonstrate Creating?
+A. Developing individualized teaching plans *
+B. Designing discharge instructions *
+C. Modifying care plans *
+D. Memorizing facts
+E. Creating new interventions *
+
+183. Which statement reflects individualized patient care?
+A. “I will adapt interventions to each patient.” *
+B. “I will treat every patient the same.”
+C. “I will memorize only.”
+D. “I will avoid patient preferences.”
+E. “I will ignore feedback.”
+
+184. Case: A patient cannot understand standard discharge instructions.
+What should the nurse do?
+A. Repeat instructions exactly the same
+B. Create a new teaching approach based on patient needs *
+C. Ignore patient understanding
+D. Memorize instructions only
+E. Stop teaching
+
+185. Which factor contributes to therapeutic communication?
+A. Ignoring patient concerns
+B. Actively listening and responding appropriately *
+C. Memorization only
+D. Avoiding interaction
+E. Passive learning
+
+186. Which statement reflects therapeutic communication?
+A. “I will listen carefully to patient concerns.” *
+B. “I will ignore patient emotions.”
+C. “I will memorize responses.”
+D. “I will avoid communication.”
+E. “I will stop reassessing.”
+
+187. SATA: Which behaviors support therapeutic communication?
+A. Active listening *
+B. Clarifying information *
+C. Responding empathetically *
+D. Ignoring emotions
+E. Asking open-ended questions *
+
+188. Which factor contributes to safe discharge planning?
+A. Ignoring patient readiness
+B. Evaluating understanding and support systems *
+C. Memorization only
+D. Passive learning
+E. Avoiding reassessment
+
+189. Case: A patient repeats discharge instructions incorrectly.
+What should the nurse do?
+A. Ignore the mistake
+B. Re-teach and reassess understanding *
+C. Stop teaching
+D. Memorize instructions only
+E. Avoid clarification
+
+190. Which statement reflects effective evaluation?
+A. “I will reassess patient understanding after teaching.” *
+B. “I will memorize only.”
+C. “I will ignore patient feedback.”
+D. “I will avoid reassessment.”
+E. “I will stop evaluating.”
+
+191. Which factor contributes to nursing competence?
+A. Memorization only
+B. Applying clinical judgment and reasoning consistently *
+C. Ignoring evidence
+D. Passive learning
+E. Avoiding analysis
+
+192. SATA: Which skills support professional nursing competence?
+A. Prioritization *
+B. Clinical judgment *
+C. Evaluation *
+D. Ignoring patient data
+E. Critical thinking *
+
+193. Which statement reflects readiness for nursing practice?
+A. “I will apply evidence and reasoning to patient care.” *
+B. “I will memorize only.”
+C. “I will avoid analysis.”
+D. “I will ignore patient needs.”
+E. “I will stop evaluating.”
+
+194. Case: A new nurse struggles to organize patient care priorities.
+What is the priority recommendation?
+A. Ignore prioritization
+B. Practice analyzing and prioritizing patient needs *
+C. Memorize more definitions
+D. Avoid patient scenarios
+E. Stop reviewing
+
+195. Which factor contributes most to safe patient outcomes?
+A. Random decisions
+B. Sound clinical reasoning and judgment *
+C. Memorization only
+D. Ignoring evidence
+E. Passive learning
+
+196. SATA: Which concepts are essential for safe nursing practice?
+A. Assessment *
+B. Prioritization *
+C. Clinical judgment *
+D. Ignoring evidence
+E. Evaluation *
+
+197. Which statement reflects effective nursing decision-making?
+A. “I will analyze patient information before acting.” *
+B. “I will memorize only.”
+C. “I will avoid interpretation.”
+D. “I will ignore reassessment.”
+E. “I will stop analyzing.”
+
+198. Which factor contributes to NCLEX success?
+A. Memorization alone
+B. Practicing application, analysis, and evaluation questions *
+C. Ignoring patient care
+D. Passive learning
+E. Avoiding evidence
+
+199. Which statement best summarizes Bloom’s Taxonomy in nursing?
+A. Bloom’s Taxonomy only supports memorization.
+B. Bloom’s Taxonomy develops critical thinking, clinical reasoning, prioritization, and safe nursing judgment. *
+C. Bloom’s Taxonomy replaces patient care.
+D. Nursing avoids analysis.
+E. Critical thinking is unnecessary.
+
+200. Which statement best summarizes the Bloom’s Taxonomy presentation?
+A. Nursing only requires remembering information.
+B. Nursing requires progression from remembering to applying, analyzing, evaluating, and creating for safe patient care. *
+C. Bloom’s Taxonomy is unnecessary in nursing.
+D. NCLEX tests recall only.
+E. Memorization guarantees nursing competence.

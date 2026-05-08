@@ -1,0 +1,287 @@
+1. A nursing student asks why Bloom’s Taxonomy is important in nursing education. Which response is best?
+A. Nursing only requires memorization.
+B. Nursing requires higher-order thinking for safe patient care. *
+C. Bloom’s Taxonomy replaces clinical judgment.
+D. Bloom’s Taxonomy is only for testing.
+E. Nursing does not involve analysis.
+
+2. Which statement best describes Bloom’s Taxonomy?
+A. A random learning strategy
+B. A framework for levels of cognitive thinking *
+C. A medication guide
+D. A memorization-only system
+E. A clinical procedure manual
+
+3. SATA: Which are levels of Bloom’s Taxonomy? (Select all that apply)
+A. Remembering *
+B. Understanding *
+C. Applying *
+D. Ignoring
+E. Evaluating *
+
+4. Which level of Bloom’s Taxonomy involves recalling facts?
+A. Applying
+B. Remembering *
+C. Analyzing
+D. Evaluating
+E. Creating
+
+5. Case: A student memorizes lab values but cannot apply them clinically.
+What level is missing?
+A. Remembering
+B. Applying *
+C. Understanding
+D. Ignoring
+E. Memorization
+
+6. Which statement reflects the Remembering level?
+A. “I can explain why glucose is low.”
+B. “I can recall normal glucose values.” *
+C. “I can create a care plan.”
+D. “I can prioritize interventions.”
+E. “I can evaluate treatment.”
+
+7. SATA: Which are examples of Remembering?
+A. Recalling lab ranges *
+B. Memorizing facts *
+C. Recognizing terminology *
+D. Prioritizing care
+E. Creating solutions
+
+8. Which blood glucose range is identified as normal in the presentation?
+A. 50–60 mg/dL
+B. 70–99 mg/dL *
+C. 100–140 mg/dL
+D. 140–180 mg/dL
+E. 180–220 mg/dL
+
+9. Which level involves explaining concepts in simple terms?
+A. Evaluating
+B. Understanding *
+C. Creating
+D. Applying
+E. Analyzing
+
+10. Case: A student recognizes that a glucose level of 60 mg/dL is abnormal.
+Which Bloom’s level is demonstrated?
+A. Remembering
+B. Understanding *
+C. Applying
+D. Evaluating
+E. Creating
+
+11. Which statement reflects Understanding?
+A. “I can explain why glucose is below normal.” *
+B. “I can create a care plan.”
+C. “I can prioritize interventions.”
+D. “I can evaluate outcomes.”
+E. “I can develop solutions.”
+
+12. SATA: Which are examples of Understanding?
+A. Explaining concepts *
+B. Interpreting meaning *
+C. Restating ideas *
+D. Creating interventions
+E. Memorizing only
+
+13. Which level involves using information in real-world situations?
+A. Applying *
+B. Remembering
+C. Understanding
+D. Evaluating
+E. Creating
+
+14. Which nursing question reflects the Applying level?
+A. “What is the definition?”
+B. “What should the nurse do?” *
+C. “Why is this important?”
+D. “What are the relationships?”
+E. “What new plan can be created?”
+
+15. Case: A nurse gives carbohydrates to treat hypoglycemia.
+Which Bloom’s level is demonstrated?
+A. Remembering
+B. Applying *
+C. Analyzing
+D. Evaluating
+E. Creating
+
+16. Which intervention is identified for mild hypoglycemia?
+A. Insulin injection
+B. 10–15 g carbohydrate *
+C. IV antibiotics
+D. Fluid restriction
+E. Oxygen therapy
+
+17. SATA: Which are examples of Applying?
+A. Following nursing guidelines *
+B. Making clinical decisions *
+C. Using patient information *
+D. Memorizing only
+E. Taking nursing action *
+
+18. Which level focuses on interpreting relationships between concepts?
+A. Applying
+B. Analyzing *
+C. Remembering
+D. Understanding
+E. Creating
+
+19. Case: A student links weakness and hunger with glucose below 70 mg/dL.
+Which Bloom’s level is demonstrated?
+A. Remembering
+B. Analyzing *
+C. Applying
+D. Evaluating
+E. Creating
+
+20. Which statement reflects Analyzing?
+A. “I can recall lab values.”
+B. “I can identify relationships between symptoms and data.” *
+C. “I can create a care plan.”
+D. “I can evaluate interventions.”
+E. “I can explain concepts.”
+
+21. SATA: Which are examples of Analyzing?
+A. Identifying patterns *
+B. Connecting symptoms and data *
+C. Breaking information into parts *
+D. Memorizing facts
+E. Exploring relationships *
+
+22. Which level involves making judgments based on evidence?
+A. Understanding
+B. Evaluating *
+C. Applying
+D. Remembering
+E. Creating
+
+23. Case: A nurse determines treatment was effective after glucose returns to normal.
+Which Bloom’s level is demonstrated?
+A. Applying
+B. Evaluating *
+C. Remembering
+D. Understanding
+E. Creating
+
+24. Which statement reflects Evaluating?
+A. “I can judge whether treatment worked.” *
+B. “I can recall information.”
+C. “I can explain concepts.”
+D. “I can identify symptoms.”
+E. “I can create a solution.”
+
+25. SATA: Which actions reflect Evaluating?
+A. Assessing effectiveness *
+B. Judging outcomes *
+C. Using evidence *
+D. Memorizing facts
+E. Determining best actions *
+
+26. Which level involves developing a new idea or solution?
+A. Remembering
+B. Creating *
+C. Applying
+D. Understanding
+E. Evaluating
+
+27. Case: A nurse develops an individualized diabetic care plan.
+Which Bloom’s level is demonstrated?
+A. Understanding
+B. Creating *
+C. Remembering
+D. Applying
+E. Analyzing
+
+28. Which statement reflects Creating?
+A. “I can memorize facts.”
+B. “I can develop a new plan of care.” *
+C. “I can identify symptoms.”
+D. “I can explain information.”
+E. “I can judge outcomes.”
+
+29. SATA: Which are examples of Creating?
+A. Designing care plans *
+B. Developing solutions *
+C. Generating new ideas *
+D. Memorizing facts
+E. Combining knowledge *
+
+30. Which level is considered higher-order thinking?
+A. Remembering only
+B. Applying and above *
+C. Memorization only
+D. Understanding only
+E. Repetition only
+
+31. Which statement explains why higher-level thinking matters?
+A. Nurses only memorize information.
+B. Nurses must make safe clinical judgments. *
+C. Nursing avoids analysis.
+D. Critical thinking is unnecessary.
+E. NCLEX focuses on memorization.
+
+32. SATA: Which skills are required in nursing?
+A. Interpret patient data *
+B. Prioritize care *
+C. Evaluate outcomes *
+D. Ignore evidence
+E. Make clinical judgments *
+
+33. Case: A nurse prioritizes oxygenation before pain control.
+Which thinking skill is demonstrated?
+A. Memorization
+B. Clinical judgment *
+C. Passive learning
+D. Ignoring priorities
+E. Random thinking
+
+34. Which statement reflects clinical judgment?
+A. “I will act randomly.”
+B. “I will prioritize care based on patient needs.” *
+C. “I will memorize only.”
+D. “I will avoid analysis.”
+E. “I will ignore evidence.”
+
+35. Which Bloom’s levels are emphasized in NCLEX?
+A. Remembering only
+B. Applying and above *
+C. Understanding only
+D. Memorization only
+E. Repetition only
+
+36. SATA: According to the presentation, NCLEX focuses on which levels?
+A. Applying *
+B. Analyzing *
+C. Evaluating *
+D. Creating *
+E. Remembering
+
+37. Which statement reflects understanding of NCLEX design?
+A. “NCLEX tests memorization only.”
+B. “NCLEX focuses on clinical judgment and safe decisions.” *
+C. “NCLEX avoids analysis.”
+D. “NCLEX ignores patient care.”
+E. “NCLEX does not require thinking.”
+
+38. Case: A student studies only by memorizing definitions.
+What teaching is needed?
+A. Continue memorization only
+B. Practice applying information to patients *
+C. Avoid clinical thinking
+D. Ignore prioritization
+E. Stop reviewing
+
+39. Which statement reflects “thinking like a nurse”?
+A. “I will memorize only.”
+B. “I will focus on application, analysis, evaluation, and creation.” *
+C. “I will avoid critical thinking.”
+D. “I will ignore patient care.”
+E. “I will stop applying concepts.”
+
+40. Which statement best summarizes Bloom’s Taxonomy in nursing?
+A. Nursing requires memorization only.
+B. Nursing requires higher-order thinking, clinical judgment, and application of knowledge. *
+C. Bloom’s Taxonomy replaces patient care.
+D. NCLEX tests only recall.
+E. Critical thinking is unnecessary.

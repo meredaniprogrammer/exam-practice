@@ -4,7 +4,8 @@
   const pageSize = 20;
 
   // DOM
-  const fileInput = document.getElementById('fileInput');
+  const topicSelect = document.getElementById('topicSelect');
+  const fileSelect = document.getElementById('fileSelect');
   const startBtn = document.getElementById('startBtn');
   const front = document.getElementById('front');
   const practice = document.getElementById('practice');
@@ -19,7 +20,6 @@
   const scoreMessage = document.getElementById('scoreMessage');
   const retryBtn = document.getElementById('retryBtn');
   const homeBtn = document.getElementById('homeBtn');
-  const bookLink = document.getElementById('bookLink');
   const reviewBtn = document.getElementById('reviewBtn');
   const reviewSection = document.getElementById('review');
   const reviewContent = document.getElementById('reviewContent');
@@ -29,26 +29,105 @@
   let answers = []; // selected option(s) per question: number|null for single-answer, array for multi-answer
   let currentPage = 0;
 
-  fileInput.addEventListener('change',()=>{
-    startBtn.disabled = !fileInput.files.length;
+  // Load manifest and populate topic/file selectors
+  let manifest = null;
+  async function loadManifest(){
+    // Prefer fetching a hosted manifest (Netlify/static host). If that fails, fall back to embedded manifest.
+    try{
+      const res = await fetch('manifest.json');
+      if(!res.ok) throw new Error('manifest.json not available');
+      manifest = await res.json();
+      populateTopics();
+      return;
+    }catch(err){
+      // fallback to embedded manifest (useful when opening file:// locally)
+      if(window && window.__MANIFEST__){
+        manifest = window.__MANIFEST__;
+        populateTopics();
+        return;
+      }
+      console.warn('Could not load manifest.json and no embedded manifest found. Run `node build-manifest.js` or deploy manifest.json to the site.');
+    }
+  }
+
+  function populateTopics(){
+    topicSelect.innerHTML = '<option value="">Select topic</option>';
+    const topics = manifest && manifest.topics ? Object.keys(manifest.topics) : [];
+    topics.forEach(t=>{
+      const opt = document.createElement('option'); opt.value = t; opt.textContent = t; topicSelect.appendChild(opt);
+    });
+  }
+
+  let currentTopic = '';
+  topicSelect.addEventListener('change',()=>{
+    const t = topicSelect.value;
+    currentTopic = t;
+    fileSelect.innerHTML = '<option value="">Select file</option>';
+    fileSelect.disabled = true;
+    startBtn.disabled = true;
+    if(!t) return;
+    const list = (manifest && manifest.topics && manifest.topics[t]) || [];
+    list.forEach((f,idx)=>{
+      const opt = document.createElement('option'); opt.value = f.path; opt.textContent = f.label + ' — ' + f.filename; opt.dataset.index = String(idx); fileSelect.appendChild(opt);
+    });
+    fileSelect.disabled = false;
   });
 
-  startBtn.addEventListener('click',()=>{
-    const f = fileInput.files[0];
-    if(!f) return alert('Choose a .txt file with questions');
-    const reader = new FileReader();
-    reader.onload = e => {
-      questions = parseQuestions(String(e.target.result));
+  fileSelect.addEventListener('change',()=>{ startBtn.disabled = !fileSelect.value; });
+
+  startBtn.addEventListener('click', async ()=>{
+    const path = fileSelect.value;
+    if(!path) return alert('Please select a file from the list');
+    // If manifest entry has inlined content, use it (works over file:// and offline)
+    let entry = null;
+    if(currentTopic && manifest && manifest.topics && Array.isArray(manifest.topics[currentTopic])){
+      const opt = fileSelect.selectedOptions[0];
+      const idx = opt && opt.dataset && opt.dataset.index ? Number(opt.dataset.index) : null;
+      if(idx !== null && manifest.topics[currentTopic][idx]) entry = manifest.topics[currentTopic][idx];
+    }
+    try{
+      let text = null;
+      if(entry && typeof entry.content === 'string' && entry.content.length>0){
+        text = entry.content;
+      } else {
+        const tried = [];
+        const variants = [path, './' + path, '/' + path, window.location.origin + '/' + path];
+        let res = null;
+        let triedDetails = [];
+        for(const v of variants){
+          const url = encodeURI(v);
+          tried.push(url);
+          try{
+            res = await fetch(url, {cache:'no-store'});
+            triedDetails.push({url, status: res.status});
+            if(res.ok) break;
+          }catch(e){
+            triedDetails.push({url, error: e.message});
+          }
+        }
+        if(!res || !res.ok) {
+          const info = triedDetails.map(d => d.status ? `${d.url} -> ${d.status}` : `${d.url} -> error: ${d.error}`).join('\n');
+          throw new Error('Could not fetch file. Tried:\n' + info);
+        }
+        text = await res.text();
+      }
+      questions = parseQuestions(String(text));
       if(!questions.length) return alert('No questions parsed from file. Check format.');
-      // shuffle questions and their options so each run is randomized
       shuffleQuestions(questions);
       answers = Array(questions.length).fill(null);
       currentPage = 0;
       showPractice();
       renderPage();
-    };
-    reader.readAsText(f);
+    }catch(err){
+      // show helpful diagnostics to the user
+      const msg = 'Error loading file: ' + err.message + '\nPlease check that the file exists at one of the attempted URLs and that `manifest.json` contains the correct path. If you deployed to a subpath, ensure files are accessible under the site root.';
+      alert(msg);
+      console.error('File fetch diagnostics:', err);
+    }
   });
+
+  // init
+  loadManifest();
 
   backHome.addEventListener('click',()=>{ showFront(); });
   homeBtn.addEventListener('click',()=>{ showFront(); });
@@ -272,7 +351,6 @@
 
   function escapeHtml(str){ return str.replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[s]); }
 
-  // Expose simple behavior to open sample link if file not provided
-  bookLink.addEventListener('click', ()=>{});
+  // no sample link behavior
 
 })();
