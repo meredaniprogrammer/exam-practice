@@ -7,17 +7,30 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <!-- PIN overlay shown on load -->
-    <div id="pinOverlay" class="pin-overlay">
-      <div class="pin-card">
-        <h2>Enter Access PIN</h2>
-        <p class="pin-lead">Provide your 4-digit code to continue.</p>
-        <div class="pin-row">
-          <input id="pinInput" type="password" inputmode="numeric" maxlength="4" placeholder="----" />
-          <button id="pinSubmit" class="btn primary">Enter</button>
+    <!-- PIN overlay shown on load (improved visual) -->
+    <div id="pinOverlay" class="pin-overlay" role="dialog" aria-modal="true" aria-labelledby="pinTitle">
+      <div class="pin-card" role="document">
+        <div class="pin-header">
+          <div class="pin-lock" aria-hidden="true">
+            <!-- simple lock SVG -->
+            <svg width="56" height="56" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="11" width="18" height="10" rx="2" fill="#eef2ff" stroke="#6366f1" stroke-width="0.8"/>
+              <path d="M7 11V8a5 5 0 0 1 10 0v3" stroke="#6366f1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+          <div class="pin-copy">
+            <h2 id="pinTitle">Access Code Required</h2>
+            <p class="pin-lead">Enter your 4-digit code to unlock topics and files.</p>
+          </div>
         </div>
+
+        <form class="pin-row" onsubmit="return false;" aria-describedby="pinMessage">
+          <label for="pinInput" class="sr-only">PIN</label>
+          <input id="pinInput" type="password" inputmode="numeric" maxlength="4" placeholder="●●●●" autocomplete="one-time-code" pattern="\d{4}" />
+          <button id="pinSubmit" class="btn primary" type="button">Enter</button>
+        </form>
+
         <div id="pinMessage" class="pin-message" aria-live="polite"></div>
-        <!-- <small class="pin-help">Admin code allows full access. Codes: admin 0101, CAMS 1988, Nursing 1993.</small> -->
       </div>
     </div>
 
