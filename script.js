@@ -93,7 +93,7 @@
   function authenticatePin(pin){
     // keep as strings to preserve leading zeros
     if(pin === '0101') return null; // admin: null => all topics
-    if(pin === '1988') return ['CAMS'];
+    if(pin === '1997') return ['CAMS'];
     if(pin === '1993') return ['Nursing'];
     return false;
   }
