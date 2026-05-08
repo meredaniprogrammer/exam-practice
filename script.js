@@ -68,7 +68,12 @@
     if(!t) return;
     const list = (manifest && manifest.topics && manifest.topics[t]) || [];
     list.forEach((f,idx)=>{
-      const opt = document.createElement('option'); opt.value = f.path; opt.textContent = f.label + ' — ' + f.filename; opt.dataset.index = String(idx); fileSelect.appendChild(opt);
+      const opt = document.createElement('option');
+      opt.value = f.path;
+      // display only a human-friendly short label (first three words, Title Case)
+      opt.textContent = f.label;
+      opt.dataset.index = String(idx);
+      fileSelect.appendChild(opt);
     });
     fileSelect.disabled = false;
   });

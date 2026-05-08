@@ -13,7 +13,8 @@ function normalizeLabel(filename){
   const base = filename.replace(/\.txt$/i,'');
   const parts = base.split(/[_\-]+/).filter(Boolean);
   if(parts.length === 0) return base;
-  const labelParts = parts.slice(0,2).map(p => p.charAt(0).toUpperCase() + p.slice(1));
+  // use up to first three words for a clearer label (e.g. "Adult Learner Student")
+  const labelParts = parts.slice(0,3).map(p => p.charAt(0).toUpperCase() + p.slice(1));
   return labelParts.join(' ');
 }
 
