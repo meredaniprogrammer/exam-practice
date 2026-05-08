@@ -1,0 +1,150 @@
+1. A high-net-worth client from a non-blacklisted but high-corruption jurisdiction provides full documentation. However, their wealth source cannot be independently verified. What is the BEST action?
+A. Accept due to documentation
+B. Reject immediately
+C. Apply EDD and seek additional verification *
+D. Ignore source of wealth
+2. A long-standing client (low risk) suddenly begins transacting with entities in a FATF grey list country. No unusual transaction size is observed. What is the FIRST action?
+A. File SAR
+B. Close account *
+C. Reassess risk and enhance monitoring
+D. Ignore
+3. A corporate client’s beneficial owner is identified, but the ownership chain includes multiple jurisdictions with secrecy laws. What is the PRIMARY concern?
+A. Tax optimisation
+B. Transaction cost *
+C. Obscured ownership risk
+D. Legal compliance
+4. During onboarding, a client insists on using a third-party representative and refuses direct contact. What is the BEST approach?
+A. Accept representative
+B. Decline immediately *
+C. Verify identity and relationship thoroughly
+D. Skip due diligence
+5. A PEP client’s transaction is flagged as unusual but not clearly suspicious. What is the BEST next step?
+A. File SAR immediately
+B. Ignore due to lack of proof *
+C. Conduct enhanced review and monitoring
+D. Inform customer
+6. A bank identifies a pattern of rapid movement of funds through multiple accounts with no clear business purpose. This is MOST indicative of:
+A. Placement
+B. Integration *
+C. Layering
+D. Tax evasion
+7. A customer’s business model is unclear but transactions appear consistent. What is the BEST action?
+A. Ignore
+B. Seek clarification and documentation *
+C. File SAR
+D. Close account
+8. A client is reluctant but eventually provides incomplete source of wealth documentation. What is the BEST action?
+A. Accept partial info
+B. Apply SDD *
+C. Apply EDD and reassess relationship
+D. Ignore
+9. Which scenario presents the HIGHEST AML risk?
+A. Local employee with salary
+B. PEP using offshore structures
+C. Student account *
+D. Retired individual savings
+10. What is the MOST appropriate response when risk cannot be mitigated?
+A. Continue monitoring
+B. Reduce risk rating *
+C. Decline or exit relationship
+D. Ignore
+11. A suspicious transaction is identified, but internal investigation is ongoing. When should a SAR be filed?
+A. After investigation completes
+B. Immediately upon suspicion *
+C. Only if confirmed
+D. After customer is informed
+12. A customer attempts to withdraw a SAR after being investigated. What should the institution do?
+A. Cancel SAR
+B. Ignore request *
+C. Inform authorities
+D. Close account
+13. An employee delays reporting suspicion due to uncertainty. This is:
+A. Acceptable
+B. Encouraged
+C. Non-compliant *
+D. Required
+14. A client conducts transactions just below thresholds but claims legitimate purpose. What is the BEST approach?
+A. Accept explanation
+B. Ignore *
+C. Monitor and consider SAR
+D. Inform customer
+15. Which is the MOST important factor when determining suspicion?
+A. Customer status
+B. Transaction size *
+C. Consistency with profile
+D. Profitability
+16. A bank suspects internal staff involvement in AML breaches. What is the FIRST action?
+A. Ignore
+B. Report internally and investigate *
+C. Inform customer
+D. File SAR externally immediately
+17. Which action demonstrates strong AML compliance culture?
+A. Ignoring low-risk alerts
+B. Prompt escalation of concerns
+C. Avoiding SAR filings *
+D. Minimising reporting
+18. A SAR has been filed. What is the NEXT step?
+A. Inform customer
+B. Stop monitoring *
+C. Continue monitoring and cooperate
+D. Close account immediately
+19. Which situation MOST likely triggers a SAR?
+A. Regular business transactions
+B. Transparent ownership
+C. Unusual, unexplained activity *
+D. Low-value transfers
+20. A customer pressures staff to bypass AML checks. What is the BEST response?
+A. Comply
+B. Ignore *
+C. Refuse and escalate
+D. Delay
+21. A sanctioned entity is indirectly involved through a third party. What is the BEST action?
+A. Ignore
+B. Proceed *
+C. Investigate and report
+D. Inform customer
+22. Which is the MOST effective sanctions control?
+A. Manual checks
+B. Automated screening systems *
+C. Customer declarations
+D. Random reviews
+23. A jurisdiction improves AML compliance and moves off FATF grey list. What should institutions do?
+A. Remove all controls
+B. Reassess risk levels *
+C. Ignore
+D. Stop monitoring
+24. What is the PRIMARY purpose of AML governance?
+A. Profit
+B. Compliance and risk management
+C. Marketing
+D. Customer growth *
+25. Which failure is MOST severe in AML compliance?
+A. Minor documentation error
+B. Failure to identify beneficial owner
+C. Slow onboarding *
+D. Customer complaint
+26. A bank operates in multiple jurisdictions with varying AML laws. What is BEST practice?
+A. Follow weakest law
+B. Apply highest standard *
+C. Ignore differences
+D. Localise fully
+27. What is the biggest risk of poor AML controls?
+A. Increased costs
+B. Regulatory penalties and reputational damage *
+C. Customer loss
+D. Slower processing
+28. Which role is MOST responsible for AML oversight?
+A. Teller
+B. MLRO *
+C. Customer
+D. Auditor
+29. What is a key challenge in global AML compliance?
+A. Too few customers
+B. Regulatory differences *
+C. Low transaction volume
+D. Excess profit
+30. A bank repeatedly fails AML audits. What is the MOST likely outcome?
+A. Growth
+B. Regulatory action *
+C. Customer reward
+D. Reduced monitoring

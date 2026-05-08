@@ -1,0 +1,600 @@
+1. Which stage involves introducing illegal funds into the financial system?
+A. Layering
+B. Integration
+C. Placement *
+D. Concealment
+2. A customer deposits cash in multiple small transactions to avoid reporting. This is:
+A. Integration
+B. Structuring *
+C. Layering
+D. Smuggling
+3. What is the primary goal of AML programs?
+A. Increase profits
+B. Detect and prevent financial crime *
+C. Speed transactions
+D. Reduce taxes
+4. Which organisation sets global AML standards?
+A. IMF
+B. FATF *
+C. World Bank
+D. UN
+5. A PEP is considered high-risk because:
+A. They earn more money
+B. They may abuse power for corruption *
+C. They travel often
+D. They own businesses
+6. What is the purpose of CDD?
+A. Increase customers
+B. Identify and assess risk *
+C. Reduce costs
+D. Improve service
+7. Which report is filed for suspicious activity?
+A. CTR
+B. SAR *
+C. STR only for tax
+D. Audit report
+8. Tipping-off refers to:
+A. Internal reporting
+B. Informing customer of suspicion *
+C. Filing SAR
+D. Monitoring accounts
+9. FATF grey list means:
+A. No risk
+B. Fully compliant
+C. Increased monitoring *
+D. Sanctioned
+10. Beneficial owner is:
+A. Account holder
+B. Person controlling funds *
+C. Bank manager
+D. Auditor
+11. Which requires EDD?
+A. Low-risk client
+B. PEP *
+C. Student
+D. Local worker
+12. What is layering?
+A. Depositing cash
+B. Moving funds to hide origin *
+C. Buying assets
+D. Reporting
+13. Which is a red flag?
+A. Consistent salary
+B. Transparent ownership
+C. Complex ownership structure *
+D. Local transactions
+14. When should a SAR be filed?
+A. After proof
+B. On suspicion *
+C. Monthly
+D. Annually
+15. Who receives SARs?
+A. FATF
+B. FIU *
+C. Bank teller
+D. Customer
+16. OFAC deals with:
+A. Loans
+B. Sanctions *
+C. Tax
+D. Insurance
+17. Which is integration?
+A. Cash deposit
+B. Complex transfers
+C. Buying property with illicit funds *
+D. Opening account
+18. What is SDD?
+A. High-risk
+B. Low-risk *
+C. No risk
+D. Illegal
+19. Which is a high-risk factor?
+A. Local transactions
+B. Low balance
+C. High-risk country *
+D. Salary account
+20. What is ongoing monitoring?
+A. One-time check
+B. Continuous review *
+C. Annual only
+D. Optional
+21. Which is a sanction action?
+A. Ignore
+B. Freeze assets *
+C. Inform customer
+D. Process transaction
+22. Egmont Group supports:
+A. Loans
+B. FIU cooperation *
+C. Tax
+D. Banking
+23. What is smurfing?
+A. Large transfer
+B. Small structured deposits *
+C. Offshore banking
+D. Tax evasion
+24. Which is NOT a stage of ML?
+A. Placement
+B. Layering
+C. Integration
+D. Monitoring *
+25. A customer refuses KYC. What should you do?
+A. Proceed
+B. Ignore
+C. Decline *
+D. Delay
+26. Which indicates suspicious activity?
+A. Expected behaviour
+B. Profile mismatch *
+C. Salary
+D. Savings
+27. What is MLRO role?
+A. Sales
+B. AML oversight *
+C. IT
+D. Customer service
+28. FATF black list means:
+A. Low risk
+B. High risk *
+C. No monitoring
+D. Approved
+29. What is the first step in suspicion?
+A. Inform customer
+B. Report internally *
+C. Close account
+D. Ignore
+30. Which is best AML action?
+A. Ignore
+B. Investigate and escalate *
+C. Inform customer
+D. Delay
+31. A PEP from a medium-risk country provides all documentation, but their transactions are unusually large for their stated income. What is the BEST action?
+A. Accept due to documentation
+B. Apply EDD and investigate source of wealth *
+C. File SAR immediately
+D. Ignore
+32. A customer uses multiple accounts to transfer funds rapidly between jurisdictions. What is the PRIMARY concern?
+A. Tax efficiency
+B. Layering *
+C. Integration
+D. Customer convenience
+33. During onboarding, beneficial ownership cannot be fully established. What should you do?
+A. Proceed with caution
+B. Apply SDD
+C. Decline or delay onboarding *
+D. Ignore
+34. A low-risk customer suddenly engages in high-value cross-border transactions. What is the FIRST step?
+A. File SAR
+B. Close account
+C. Reassess risk and monitor *
+D. Inform customer
+35. A client operates through multiple shell companies across different jurisdictions. What is the KEY risk?
+A. Profitability
+B. Ownership concealment *
+C. Operational efficiency
+D. Compliance ease
+36. A customer insists on urgent processing and pressures staff to bypass AML checks. What is the BEST action?
+A. Comply
+B. Delay slightly
+C. Refuse and escalate *
+D. Ignore
+37. Which situation MOST requires EDD?
+A. Local employee
+B. Student account
+C. Customer linked to offshore secrecy jurisdiction *
+D. Salary account
+38. A client’s transactions are consistent but business purpose is unclear. What should you do FIRST?
+A. File SAR
+B. Seek clarification *
+C. Close account
+D. Ignore
+39. A customer provides incomplete KYC documents repeatedly. What is the BEST action?
+A. Accept partial info
+B. Apply SDD
+C. Escalate and consider refusal *
+D. Ignore
+40. What is the PRIMARY goal of risk-based AML approach?
+A. Eliminate all risk
+B. Focus resources on higher risks *
+C. Reduce customers
+D. Increase profit
+41. A transaction appears suspicious but not illegal. What should you do?
+A. Ignore
+B. Report internally *
+C. Inform customer
+D. Close account
+42. When is a SAR required?
+A. After confirmation
+B. On suspicion *
+C. Only large transactions
+D. Annually
+43. Which is tipping-off?
+A. Internal report
+B. Informing FIU
+C. Informing customer *
+D. Monitoring
+44. A bank delays SAR filing to gather more evidence. This is:
+A. Acceptable
+B. Best practice
+C. Potentially non-compliant *
+D. Required
+45. A customer deposits just below reporting thresholds frequently. What is the BEST action?
+A. Ignore
+B. File SAR *
+C. Inform customer
+D. Close account
+46. Which is the MOST suspicious scenario?
+A. Salary deposits
+B. Transparent business
+C. Transactions inconsistent with profile *
+D. Savings account
+47. A staff member suspects internal fraud. What is the FIRST step?
+A. Ignore
+B. Report internally *
+C. Inform customer
+D. File SAR immediately
+48. What should happen after a SAR is filed?
+A. Inform customer
+B. Stop monitoring
+C. Continue monitoring *
+D. Close account
+49. Which is a key red flag?
+A. Consistent activity
+B. Clear ownership
+C. Complex transaction patterns *
+D. Local transfers
+50. What is the purpose of SAR?
+A. Punish customer
+B. Report suspicion *
+C. Close account
+D. Increase profit
+51. A customer is linked to a sanctioned entity indirectly. What is the BEST action?
+A. Ignore
+B. Investigate and escalate *
+C. Process transaction
+D. Inform customer
+52. FATF grey list indicates:
+A. No risk
+B. Increased monitoring *
+C. Full compliance
+D. Sanctioned
+53. FATF black list countries require:
+A. No action
+B. Reduced checks
+C. Countermeasures *
+D. Approval
+54. What is OFAC’s role?
+A. Loans
+B. Sanctions *
+C. Tax
+D. Banking
+55. Egmont Group supports:
+A. Customer onboarding
+B. FIU cooperation *
+C. Loans
+D. Tax
+56. Which is MOST important in sanctions compliance?
+A. Speed
+B. Accuracy of screening *
+C. Profit
+D. Customer satisfaction
+57. A transaction hits a sanctions list. What is the FIRST step?
+A. Inform customer
+B. Freeze and report *
+C. Ignore
+D. Process
+58. Which is a risk of shell companies?
+A. Transparency
+B. Ownership concealment *
+C. Easy compliance
+D. Low risk
+59. What is the role of FATF?
+A. Tax
+B. AML standards *
+C. Banking licenses
+D. Loans
+60. What is the biggest AML compliance risk?
+A. Costs
+B. Regulatory penalties *
+C. Customers
+D. Speed
+61. A high-net-worth individual from a high-corruption country provides full KYC documents, but their source of wealth cannot be independently verified. What is the BEST action?
+A. Accept documentation
+B. Reject immediately
+C. Apply EDD and seek further verification *
+D. Ignore
+62. A long-term customer begins transacting with multiple entities in offshore jurisdictions. What is the FIRST step?
+A. File SAR
+B. Close account
+C. Reassess risk and monitor *
+D. Inform customer
+63. A corporate structure includes several layers across secrecy jurisdictions. What is the PRIMARY concern?
+A. Tax benefits
+B. Transaction efficiency
+C. Obscured beneficial ownership *
+D. Legal structure
+64. A client insists on using an intermediary and refuses direct engagement. What is the BEST approach?
+A. Accept intermediary
+B. Decline immediately
+C. Verify identity and relationship thoroughly *
+D. Ignore
+65. A PEP’s activity is unusual but not clearly suspicious. What is the BEST next step?
+A. File SAR
+B. Ignore
+C. Conduct enhanced monitoring *
+D. Inform customer
+66. Rapid movement of funds through multiple accounts with no business purpose indicates:
+A. Placement
+B. Integration
+C. Layering *
+D. Savings
+67. A customer’s transactions are consistent but business purpose is unclear. What is the FIRST step?
+A. File SAR
+B. Seek clarification *
+C. Close account
+D. Ignore
+68. A client provides incomplete source of wealth documents. What is the BEST action?
+A. Accept partial info
+B. Apply SDD
+C. Apply EDD and reassess *
+D. Ignore
+69. Which scenario is HIGHEST risk?
+A. Local employee
+B. PEP with offshore accounts *
+C. Student account
+D. Retired saver
+70. If AML risk cannot be mitigated, what should be done?
+A. Monitor
+B. Reduce rating
+C. Exit relationship *
+D. Ignore
+71. A suspicious transaction is identified. Investigation is ongoing. When should a SAR be filed?
+A. After investigation
+B. Immediately upon suspicion *
+C. After confirmation
+D. After customer notification
+72. A customer requests withdrawal of a SAR. What is the BEST response?
+A. Cancel SAR
+B. Ignore request *
+C. Inform authorities
+D. Close account
+73. Delaying reporting due to uncertainty is:
+A. Acceptable
+B. Encouraged
+C. Non-compliant *
+D. Required
+74. A customer structures transactions but provides explanation. What is the BEST action?
+A. Accept explanation
+B. Ignore
+C. Monitor and consider SAR *
+D. Inform customer
+75. What is the MOST important factor in suspicion?
+A. Customer wealth
+B. Transaction size
+C. Consistency with profile *
+D. Profit
+76. Internal staff involvement is suspected. What is the FIRST step?
+A. Ignore
+B. Report internally and investigate *
+C. Inform customer
+D. File SAR immediately
+77. Strong AML culture is shown by:
+A. Ignoring alerts
+B. Prompt escalation *
+C. Minimising reports
+D. Avoiding SAR
+78. After filing SAR, what is NEXT?
+A. Inform customer
+B. Stop monitoring
+C. Continue monitoring *
+D. Close account
+79. Which scenario MOST triggers SAR?
+A. Normal activity
+B. Transparent structure
+C. Unexplained unusual transactions *
+D. Small transfers
+80. Customer pressures staff to bypass AML. What is BEST response?
+A. Comply
+B. Ignore
+C. Refuse and escalate *
+D. Delay
+81. A sanctioned entity is involved indirectly. What is BEST action?
+A. Ignore
+B. Proceed
+C. Investigate and report *
+D. Inform customer
+82. Best sanctions control method is:
+A. Manual checks
+B. Automated screening *
+C. Customer declaration
+D. Random checks
+83. Country removed from FATF grey list. What should be done?
+A. Remove controls
+B. Reassess risk *
+C. Ignore
+D. Stop monitoring
+84. AML governance purpose is:
+A. Profit
+B. Compliance and risk control *
+C. Marketing
+D. Sales
+85. Most severe AML failure is:
+A. Minor error
+B. Failure to identify beneficial owner *
+C. Delay
+D. Complaint
+86. Operating globally, best AML approach is:
+A. Follow weakest law
+B. Apply highest standard *
+C. Ignore differences
+D. Local only
+87. Biggest AML risk is:
+A. Cost
+B. Penalties and reputation damage *
+C. Customers
+D. Speed
+88. AML oversight role is primarily:
+A. Teller
+B. MLRO *
+C. Customer
+D. Auditor
+89. Major global AML challenge:
+A. Customers
+B. Regulatory differences *
+C. Profit
+D. Technology
+90. Repeated AML failures lead to:
+A. Growth
+B. Regulatory action *
+C. Rewards
+D. Less monitoring
+91. A high-risk PEP client provides complete documentation, but independent verification of source of wealth is inconclusive. Transactions appear consistent. What is the BEST action?
+A. Accept relationship
+B. Reject immediately
+C. Apply EDD and continue enhanced monitoring *
+D. File SAR
+92. A long-term customer suddenly changes behaviour, making frequent international transfers just below reporting thresholds. What is the FIRST action?
+A. File SAR
+B. Close account
+C. Investigate and escalate internally *
+D. Inform customer
+93. A complex corporate structure spans multiple jurisdictions with nominee shareholders. What is the PRIMARY AML concern?
+A. Tax compliance
+B. Legal complexity
+C. Concealed beneficial ownership *
+D. Cost
+94. A customer’s activity is unusual but has a plausible explanation. What is the BEST approach?
+A. Ignore
+B. File SAR immediately
+C. Monitor and verify explanation *
+D. Inform customer
+95. A client insists on anonymity and refuses to provide beneficial ownership details. What is the MOST appropriate action?
+A. Proceed cautiously
+B. Apply SDD
+C. Decline relationship *
+D. Ignore
+96. A transaction matches a sanctions list with a partial name match. What is the FIRST step?
+A. Freeze assets immediately
+B. Ignore
+C. Investigate and confirm match *
+D. Inform customer
+97. A bank identifies unusual activity involving multiple accounts but no clear evidence of crime. What is the BEST action?
+A. Ignore
+B. Monitor and escalate internally *
+C. Close account
+D. Inform customer
+98. A staff member fails to report suspicion due to uncertainty. What is the PRIMARY issue?
+A. Acceptable delay
+B. Compliance breach *
+C. Good judgment
+D. Customer protection
+99. A customer is linked indirectly to a high-risk jurisdiction but transactions are low value. What is the BEST approach?
+A. Ignore
+B. Apply risk-based monitoring *
+C. Close account
+D. File SAR
+100. A bank cannot verify a customer’s identity fully but pressure exists to onboard quickly. What should be done?
+A. Proceed
+B. Delay checks
+C. Decline onboarding *
+D. Ignore
+101. A suspicious pattern is identified, but investigation is incomplete. When should SAR be filed?
+A. After full investigation
+B. Immediately upon suspicion *
+C. Only if confirmed
+D. After customer is informed
+102. A customer becomes aware of internal investigation. What should staff avoid?
+A. Monitoring
+B. Internal reporting
+C. Tipping-off *
+D. Escalation
+103. A bank delays SAR filing to improve evidence quality. This is:
+A. Acceptable
+B. Risky and potentially non-compliant *
+C. Best practice
+D. Required
+104. A transaction is unusual but consistent with customer’s updated profile. What is the BEST action?
+A. File SAR
+B. Ignore
+C. Update risk profile and monitor *
+D. Close account
+105. Which factor MOST strongly indicates suspicion?
+A. Customer wealth
+B. Transaction size
+C. Deviation from expected behaviour *
+D. Frequency
+106. A customer pressures staff to avoid AML procedures. What is the BEST response?
+A. Comply
+B. Delay
+C. Refuse and escalate *
+D. Ignore
+107. After filing a SAR, what is the MOST appropriate ongoing action?
+A. Inform customer
+B. Stop monitoring
+C. Continue monitoring and cooperate *
+D. Close account immediately
+108. Internal staff involvement in suspicious activity is suspected. What is the FIRST step?
+A. Ignore
+B. Report internally and investigate *
+C. Inform customer
+D. File SAR externally
+109. Which action demonstrates strongest AML control?
+A. Minimising reports
+B. Prompt escalation *
+C. Ignoring low-risk alerts
+D. Avoiding SARs
+110. A customer withdraws funds immediately after unusual activity is flagged. What is the BEST action?
+A. Ignore
+B. Monitor and escalate *
+C. Inform customer
+D. Close account immediately
+111. A transaction involves a sanctioned entity through a third party. What is the BEST action?
+A. Ignore
+B. Process
+C. Investigate and report *
+D. Inform customer
+112. What is the MOST effective sanctions control system?
+A. Manual review
+B. Automated screening with alerts *
+C. Customer declarations
+D. Random checks
+113. A jurisdiction improves AML compliance. What should a bank do?
+A. Remove controls
+B. Reassess risk *
+C. Ignore
+D. Stop monitoring
+114. AML governance primarily ensures:
+A. Profit
+B. Risk management and compliance *
+C. Growth
+D. Marketing
+115. Which failure is MOST critical?
+A. Minor delay
+B. Failure to identify beneficial owner *
+C. Customer complaint
+D. System error
+116. Operating in multiple jurisdictions, best practice is:
+A. Follow lowest standard
+B. Apply highest AML standard *
+C. Ignore differences
+D. Local only
+117. Biggest AML risk to institutions is:
+A. Cost
+B. Regulatory penalties and reputational damage *
+C. Customer dissatisfaction
+D. Speed
+118. Who has primary responsibility for AML oversight?
+A. Teller
+B. MLRO *
+C. Customer
+D. Auditor
+119. Key challenge in global AML compliance:
+A. Profit
+B. Regulatory differences *
+C. Customer base
+D. Technology
+120. Repeated AML failures most likely result in:
+A. Increased profit
+B. Regulatory enforcement action *
+C. Customer growth
+D. Reduced monitoring

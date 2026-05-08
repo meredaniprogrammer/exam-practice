@@ -1,0 +1,179 @@
+1. Which stage of money laundering involves introducing illicit funds into the financial system?
+A. Layering
+B. Integration
+C. Placement *
+D. Structuring
+
+2. A customer deposits multiple small amounts below reporting thresholds. This is an example of:
+A. Integration
+B. Smurfing *
+C. Layering
+D. Trade-based laundering
+
+3. Terrorist financing differs from money laundering because:
+A. It always involves illegal funds
+B. It may involve legitimate funds *
+C. It only occurs internationally
+D. It is not regulated
+
+4. Which is the BEST description of layering?
+A. Using funds to purchase assets
+B. Moving funds to obscure origin *
+C. Depositing cash into banks
+D. Reporting suspicious activity
+
+5. Integration occurs when:
+A. Funds enter the system
+B. Transactions are hidden
+C. Funds appear legitimate *
+D. Accounts are opened
+
+6. Which of the following is NOT a stage of money laundering?
+A. Placement
+B. Layering
+C. Integration
+D. Concealment *
+
+7. A criminal uses a casino to convert cash into chips and then cashes out. This is primarily:
+A. Integration
+B. Placement *
+C. Layering
+D. Structuring
+
+8. Which activity is most associated with layering?
+A. Buying luxury goods
+B. Complex transfers between accounts *
+C. Cash deposits
+D. Opening accounts
+
+9. What is the main objective of placement?
+A. Hide transaction trail
+B. Make money appear legal
+C. Introduce funds into system *
+D. Avoid taxes
+
+10. Which is an example of integration?
+A. Wiring money offshore
+B. Buying real estate with illicit funds *
+C. Depositing cash in small amounts
+D. Moving funds through shell companies
+
+11. When is Enhanced Due Diligence (EDD) required?
+A. Low-risk customers
+B. High-risk customers *
+C. All customers
+D. Only corporate clients
+
+12. A Politically Exposed Person (PEP) is:
+A. Always involved in crime
+B. High-risk due to position *
+C. A government employee only
+D. Exempt from checks
+
+13. Beneficial ownership refers to:
+A. Account manager
+B. Legal owner
+C. Person controlling funds *
+D. Bank employee
+
+14. Which situation requires EDD?
+A. Local student account
+B. Customer from high-risk country *
+C. Low-income individual
+D. Salary account
+
+15. Simplified Due Diligence (SDD) applies to:
+A. High-risk clients
+B. All customers
+C. Low-risk situations *
+D. PEPs
+
+16. Ongoing monitoring means:
+A. One-time verification
+B. Continuous review of activity *
+C. Only during onboarding
+D. Annual reporting only
+
+17. A customer refuses to provide source of funds. What is the BEST action?
+A. Ignore
+B. Proceed anyway
+C. Apply EDD or decline *
+D. Close immediately without review
+
+18. Which is a red flag during onboarding?
+A. Complete documentation
+B. Clear source of funds
+C. Complex ownership structure *
+D. Local address
+
+19. Which role approves high-risk customers?
+A. Teller
+B. Senior management *
+C. IT team
+D. Customer
+
+20. What is the primary purpose of KYC?
+A. Increase profits
+B. Identify customer risk *
+C. Reduce taxes
+D. Speed transactions
+
+21. When should a SAR be filed?
+A. Only when crime is proven
+B. When suspicion arises *
+C. After customer confirms
+D. Monthly
+
+22. Tipping-off means:
+A. Reporting internally
+B. Informing customer of SAR *
+C. Escalating risk
+D. Closing account
+
+23. Tipping-off is:
+A. Required
+B. Encouraged
+C. Illegal *
+D. Optional
+
+24. Who receives SARs in most countries?
+A. FATF
+B. FIU *
+C. Bank manager
+D. Customer
+
+25. OFAC is responsible for:
+A. Tax collection
+B. Sanctions enforcement *
+C. Banking licenses
+D. Fraud detection
+
+26. A customer appears on a sanctions list. What is the FIRST step?
+A. Ignore
+B. Process transaction
+C. Freeze/report *
+D. Inform customer
+
+27. Which organisation sets global AML standards?
+A. IMF
+B. FATF *
+C. UN
+D. World Bank
+
+28. FATF grey list means:
+A. No risk
+B. High compliance
+C. Increased monitoring *
+D. Sanctioned
+
+29. What is the main role of FIUs?
+A. Issue loans
+B. Investigate AML reports *
+C. Open accounts
+D. Audit banks
+
+30. Which is the BEST action when suspicious activity is detected?
+A. Ignore
+B. Inform customer
+C. Report internally *
+D. Close account immediately

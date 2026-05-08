@@ -1,0 +1,151 @@
+1. A 2.C 3.B ...
+1. A new client is a senior government official from a high-risk jurisdiction. He provides complete documentation and insists on urgent account opening. What is the BEST action?
+A. Open account immediately
+B. Apply Simplified Due Diligence
+C. Apply Enhanced Due Diligence and escalate *
+D. Decline automatically
+2. A corporate client has a complex ownership structure involving multiple offshore entities. What is the PRIMARY concern?
+A. Tax efficiency
+B. Operational cost *
+C. Beneficial ownership transparency
+D. Transaction speed
+3. During onboarding, a customer provides inconsistent information about their source of funds. What should you do FIRST?
+A. Reject the customer
+B. File a SAR *
+C. Seek clarification and verify
+D. Ignore inconsistency
+4. A long-standing low-risk customer suddenly begins making large international transfers. What is the BEST action?
+A. Ignore due to history
+B. Close account immediately *
+C. Conduct ongoing monitoring and review
+D. File SAR immediately
+5. A PEP customer wants to open an account through an intermediary. What is the MOST important step?
+A. Accept intermediary verification
+B. Identify and verify beneficial owner *
+C. Offer premium services
+D. Skip due diligence
+6. Which situation MOST likely requires EDD?
+A. Local salaried employee
+B. Government-owned company with transparency *
+C. Customer from FATF blacklisted country
+D. Student account
+7. A customer refuses to disclose beneficial ownership. What is the BEST action?
+A. Proceed with caution
+B. Apply SDD *
+C. Decline or terminate relationship
+D. Ignore
+8. Which factor MOST increases customer risk rating?
+A. Long-term relationship
+B. Domestic transactions *
+C. High-risk jurisdiction involvement
+D. Small account balance
+9. What is the FIRST step in a risk-based approach?
+A. Report suspicious activity
+B. Classify customer risk
+C. Close accounts *
+D. Ignore low-risk clients
+10. A customer’s transactions do not match their profile. What should you do?
+A. Ignore
+B. Monitor and investigate *
+C. Close account immediately
+D. Inform customer
+11. A customer structures deposits just below reporting thresholds repeatedly. What is the BEST action?
+A. Ignore
+B. File SAR *
+C. Inform customer
+D. Increase fees
+12. An employee suspects money laundering but has limited evidence. What should they do?
+A. Wait for proof
+B. Report internally *
+C. Inform customer
+D. Ignore
+13. Which action would be considered tipping-off?
+A. Filing SAR
+B. Reporting internally
+C. Informing customer of investigation *
+D. Monitoring account
+14. A suspicious transaction is detected. What is the FIRST step?
+A. File SAR externally
+B. Inform customer *
+C. Report internally to MLRO
+D. Close account
+15. Which scenario is MOST suspicious?
+A. Regular salary deposits
+B. Large transactions inconsistent with profile *
+C. Small domestic transfers
+D. Savings account activity
+16. A bank delays filing a SAR to gather more evidence. This is:
+A. Acceptable
+B. Best practice *
+C. Potentially non-compliant
+D. Required
+17. Which red flag indicates possible trade-based money laundering?
+A. Personal loan
+B. Over/under invoicing
+C. Salary payments *
+D. Savings deposit
+18. A customer requests transaction secrecy and refuses documentation. What is the BEST action?
+A. Proceed
+B. Monitor only *
+C. Report suspicion
+D. Ignore
+19. What is the PRIMARY purpose of SAR?
+A. Punish customer
+B. Notify regulators of suspicion
+C. Close accounts *
+D. Increase profits
+20. Which action should NEVER be taken after filing a SAR?
+A. Continue monitoring
+B. Inform customer *
+C. Cooperate with authorities
+D. Keep records
+21. A transaction involves a country on the FATF grey list. What is the BEST action?
+A. Ignore
+B. Apply enhanced monitoring *
+C. Automatically reject
+D. Inform customer
+22. A client is identified on an OFAC sanctions list. What is the FIRST action?
+A. Inform customer
+B. Freeze assets and report *
+C. Process transaction
+D. Ignore
+23. FATF black list countries are:
+A. Low risk
+B. Fully compliant *
+C. High risk requiring countermeasures
+D. Not monitored
+24. What is the role of the Egmont Group?
+A. Set laws
+B. Facilitate FIU cooperation
+C. Regulate banks
+D. Issue sanctions *
+25. Which organisation provides guidance for private banking AML controls?
+A. FATF
+B. Wolfsberg Group
+C. IMF *
+D. UN
+26. A bank deals with a sanctioned entity unknowingly. What is the BEST action?
+A. Ignore
+B. Report and take corrective action *
+C. Continue business
+D. Inform customer
+27. What does FATF Recommendation focus on?
+A. Tax rules
+B. AML/CFT standards *
+C. Loan policies
+D. Customer service
+28. Which is the MOST important aspect of sanctions compliance?
+A. Speed
+B. Accuracy and screening *
+C. Customer satisfaction
+D. Profit
+29. What is a key risk of dealing with shell companies?
+A. High profits
+B. Transparency *
+C. Concealing ownership
+D. Easy compliance
+30. A financial institution fails to comply with AML regulations. The MAIN consequence is:
+A. Increased profits
+B. Regulatory penalties *
+C. More customers
+D. Lower risk
