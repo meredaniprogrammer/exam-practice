@@ -7,6 +7,10 @@
   const topicSelect = document.getElementById('topicSelect');
   const fileSelect = document.getElementById('fileSelect');
   const startBtn = document.getElementById('startBtn');
+  const pinOverlay = document.getElementById('pinOverlay');
+  const pinInput = document.getElementById('pinInput');
+  const pinSubmit = document.getElementById('pinSubmit');
+  const pinMessage = document.getElementById('pinMessage');
   const front = document.getElementById('front');
   const practice = document.getElementById('practice');
   const result = document.getElementById('result');
@@ -28,6 +32,10 @@
   let questions = [];
   let answers = []; // selected option(s) per question: number|null for single-answer, array for multi-answer
   let currentPage = 0;
+  // Access control: allowedTopics === undefined means not authenticated yet
+  // allowedTopics === null means admin (all topics)
+  // allowedTopics === Array means only these topic names are allowed
+  let allowedTopics = undefined;
 
   // Load manifest and populate topic/file selectors
   let manifest = null;
@@ -37,13 +45,13 @@
       const res = await fetch('manifest.json');
       if(!res.ok) throw new Error('manifest.json not available');
       manifest = await res.json();
-      populateTopics();
+      // Do not populate until PIN auth grants access
       return;
     }catch(err){
       // fallback to embedded manifest (useful when opening file:// locally)
       if(window && window.__MANIFEST__){
         manifest = window.__MANIFEST__;
-        populateTopics();
+        // Wait for PIN auth to populate topics
         return;
       }
       console.warn('Could not load manifest.json and no embedded manifest found. Run `node build-manifest.js` or deploy manifest.json to the site.');
@@ -51,9 +59,12 @@
   }
 
   function populateTopics(){
+    // Only populate after PIN authentication
+    if(typeof allowedTopics === 'undefined') return;
     topicSelect.innerHTML = '<option value="">Select topic</option>';
     const topics = manifest && manifest.topics ? Object.keys(manifest.topics) : [];
-    topics.forEach(t=>{
+    const shown = (allowedTopics === null) ? topics : topics.filter(t=> allowedTopics.includes(t));
+    shown.forEach(t=>{
       const opt = document.createElement('option'); opt.value = t; opt.textContent = t; topicSelect.appendChild(opt);
     });
   }
@@ -77,6 +88,41 @@
     });
     fileSelect.disabled = false;
   });
+
+  // PIN authentication
+  function authenticatePin(pin){
+    // keep as strings to preserve leading zeros
+    if(pin === '0101') return null; // admin: null => all topics
+    if(pin === '1988') return ['CAMS'];
+    if(pin === '1993') return ['Nursing'];
+    return false;
+  }
+
+  function showPinMessage(msg, isError=true){
+    pinMessage.textContent = msg;
+    pinMessage.style.color = isError ? '#7f1d1d' : '#065f46';
+  }
+
+  pinSubmit.addEventListener('click',()=>{
+    const pin = (pinInput && pinInput.value) ? String(pinInput.value).trim() : '';
+    const result = authenticatePin(pin);
+    if(result === false){
+      showPinMessage('Invalid PIN. Try again.');
+      return;
+    }
+    // set allowed topics and populate
+    allowedTopics = result; // null means admin
+    showPinMessage('Access granted.', false);
+    // hide overlay
+    if(pinOverlay) pinOverlay.style.display = 'none';
+    // populate topics now that we have permission
+    populateTopics();
+  });
+
+  // allow Enter key in input
+  if(pinInput){
+    pinInput.addEventListener('keydown',(e)=>{ if(e.key === 'Enter'){ e.preventDefault(); pinSubmit.click(); } });
+  }
 
   fileSelect.addEventListener('change',()=>{ startBtn.disabled = !fileSelect.value; });
 

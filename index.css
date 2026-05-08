@@ -94,3 +94,20 @@ body {
 }
 
 /* loading overlay removed */
+
+/* PIN overlay styles */
+.pin-overlay{ position:fixed; inset:0; background:linear-gradient(180deg,rgba(2,6,23,0.45),rgba(2,6,23,0.55)); display:flex; align-items:center; justify-content:center; z-index:9999 }
+.pin-card{ background:#fff; padding:22px; border-radius:12px; width:min(520px,94%); box-shadow:0 12px 40px rgba(2,6,23,0.3); text-align:center }
+.pin-card h2{ margin:0 0 6px; font-size:20px }
+.pin-lead{ color:#475569; margin:0 0 12px }
+.pin-row{ display:flex; gap:10px; justify-content:center; align-items:center }
+.pin-row input{ width:110px; padding:10px 12px; font-size:20px; text-align:center; border-radius:8px; border:1px solid #e6eef6 }
+.pin-row .btn{ padding:10px 16px; border-radius:8px }
+.pin-message{ min-height:20px; margin-top:10px; color:#7f1d1d; font-weight:600 }
+.pin-help{ display:block; margin-top:8px; color:#94a3b8 }
+
+@media (max-width:420px){
+  .pin-row{ flex-direction:column }
+  .pin-row input{ width:100%; font-size:18px }
+  .pin-row .btn{ width:100% }
+}

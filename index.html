@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!-- PIN overlay shown on load -->
+    <div id="pinOverlay" class="pin-overlay">
+      <div class="pin-card">
+        <h2>Enter Access PIN</h2>
+        <p class="pin-lead">Provide your 4-digit code to continue.</p>
+        <div class="pin-row">
+          <input id="pinInput" type="password" inputmode="numeric" maxlength="4" placeholder="----" />
+          <button id="pinSubmit" class="btn primary">Enter</button>
+        </div>
+        <div id="pinMessage" class="pin-message" aria-live="polite"></div>
+        <!-- <small class="pin-help">Admin code allows full access. Codes: admin 0101, CAMS 1988, Nursing 1993.</small> -->
+      </div>
+    </div>
+
     <main class="container">
       <section id="front" class="card">
         <h1 class="title">Practice Test</h1>
