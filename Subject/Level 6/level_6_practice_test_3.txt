@@ -1,0 +1,183 @@
+﻿Practice Test 3
+
+Instructions:
+Choose one answer for each question. Each question has four options: A, B, C and D. The answer key is provided at the end.
+1. A team wants to reduce inconsistent customer definitions across departments. What should be introduced?
+A. More private spreadsheets
+B. Different definitions for each report
+C. Shared business glossary and data standards *
+D. Manual copying only
+
+2. A large organisation needs fast read-heavy analytics but not frequent record-by-record updates. Which option is suitable?
+A. Personal diary
+B. Slide deck
+C. Unstructured email folder only
+D. Data warehouse *
+
+3. A real-time fraud system must score card payments as they arrive. Which requirement is most important?
+A. Low-latency processing *
+B. Annual batch refresh only
+C. Manual sorting by name
+D. Storing outputs in a word document
+
+4. A database table stores customer orders and uses CustomerID to link to a customer table. What concept is this?
+A. Image segmentation
+B. Relational join/key relationship *
+C. Tokenisation
+D. Forecast seasonality
+
+5. A cloud service charges more when more compute is used. What organisational constraint should be managed?
+A. Font choice
+B. Question wording
+C. Cost *
+D. Page margin only
+
+6. A model predicts whether a patient will be readmitted. The team uses recall as a priority. Why?
+A. Recall measures storage cost
+B. Recall only applies to regression
+C. Recall counts database tables
+D. Missing true readmission risks may be costly *
+
+7. A model's ROC-AUC improves but the business cost of false positives rises. What should the team review?
+A. Decision threshold and business cost trade-off *
+B. Only the chart colour
+C. The laptop brand
+D. Whether SQL exists
+
+8. A dataset is split randomly for a time series forecast. Why might this be a problem?
+A. It always reduces compute cost
+B. It may leak future patterns into training *
+C. It removes missing values
+D. It makes the target categorical
+
+9. A model is evaluated only on the training data. What is missing?
+A. More headings
+B. A file password
+C. Independent validation or test evaluation *
+D. An OLAP cube
+
+10. A cluster analysis produces groups, but the variables were not scaled. What issue may occur?
+A. All labels become correct
+B. The target variable disappears
+C. The database becomes NoSQL
+D. Variables with larger ranges may dominate the clusters *
+
+11. A colleague replaces all missing ages with the average age without checking why they are missing. What is the weakness?
+A. It may hide systematic missingness and bias *
+B. It creates more observations
+C. It guarantees fairness
+D. It improves every model
+
+12. A column has values such as yes, YES, Y and true for the same meaning. What should be done?
+A. Create four separate meanings
+B. Standardise categories *
+C. Delete all positive records
+D. Ignore it because it is text
+
+13. A model uses customer ID as a predictor and appears to perform very well. Why should this be checked?
+A. IDs always improve generalisation
+B. IDs are always target variables
+C. The ID may cause memorisation rather than useful learning *
+D. IDs cannot be stored
+
+14. A team removes duplicate customer records before analysis. What data quality issue are they addressing?
+A. Data encryption
+B. Cloud scaling
+C. Model deployment
+D. Duplicate data *
+
+15. You want to show the distribution of customer spend and identify unusually high values. Which chart is useful?
+A. Boxplot *
+B. Network diagram only
+C. Confusion matrix
+D. Gantt chart
+
+16. A stakeholder asks why two models with similar accuracy have different business impacts. What should you compare?
+A. Only the model names
+B. Error types and their business costs *
+C. Only training time
+D. Only colour themes
+
+17. Lowering a fraud detection threshold increases alerts. What is a likely trade-off?
+A. Lower recall and fewer false positives only
+B. No effect on predictions
+C. Higher recall but more false positives *
+D. The model becomes unsupervised
+
+18. A model is hard to explain because it combines many complex non-linear interactions. What governance concern does this raise?
+A. Faster typing
+B. Better font consistency
+C. More file compression
+D. Explainability and accountability *
+
+19. A company deploys a model but does not monitor performance after launch. What risk does this create?
+A. Performance degradation may go unnoticed *
+B. The model will self-document
+C. Data quality will improve automatically
+D. No drift can occur
+
+20. A baseline model is created before testing complex algorithms. Why is this useful?
+A. It replaces all further testing
+B. It provides a simple performance benchmark *
+C. It guarantees the final model
+D. It removes the need for data
+
+21. A data scientist uses regularisation in a model. What is the main purpose?
+A. Increase missing values
+B. Remove all categorical variables
+C. Reduce overfitting by penalising complexity *
+D. Convert data to images
+
+22. A version-controlled repository is used for code. What is a key benefit?
+A. Data becomes automatically unbiased
+B. Models never fail
+C. Passwords can be shared safely
+D. Changes can be tracked and rolled back *
+
+23. A production pipeline has unit tests for transformation logic. What do the tests help confirm?
+A. The code behaves as expected when data is processed *
+B. The dashboard is colourful
+C. The business case is approved
+D. The data is always normally distributed
+
+24. A data table has no documentation about field meanings. What problem may result?
+A. Faster governance
+B. Misinterpretation of data *
+C. Automatic quality improvement
+D. Perfect analytics
+
+25. A customer service team wants to classify complaint themes from message text. Which approach is relevant?
+A. Relational indexing only
+B. Image cropping
+C. Text classification *
+D. Spreadsheet protection only
+
+26. A camera system identifies damaged products on a production line. Which technology is being used?
+A. OLAP reporting
+B. Manual data entry
+C. Data warehousing only
+D. Computer vision *
+
+27. An optimisation algorithm is used to allocate delivery routes under time and fuel constraints. What is it trying to do?
+A. Find the best feasible solution under constraints *
+B. Create random labels
+C. Remove all variables
+D. Store raw images only
+
+28. A model trained on one country is applied to another country with different customer behaviour. What should be checked?
+A. Whether the file is zipped
+B. Whether the model generalises to the new population *
+C. Whether the chart title is centred
+D. Whether there are four answer options
+
+29. A business user wants a clear explanation of uncertainty in forecasts. What should be included?
+A. Only a single exact number with no context
+B. Only the training code
+C. Prediction intervals or confidence ranges where appropriate *
+D. Only the database password
+
+30. A data project is constrained by limited specialist skills. What should be considered when selecting the solution?
+A. Choosing the most complex model regardless
+B. Avoiding documentation
+C. Ignoring handover needs
+D. Maintainability and skills required *

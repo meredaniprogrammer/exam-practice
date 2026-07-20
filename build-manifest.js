@@ -15,7 +15,8 @@ function normalizeLabel(filename){
   if(parts.length === 0) return base;
   // use up to first three words for a clearer label (e.g. "Adult Learner Student")
   const labelParts = parts.slice(0,3).map(p => p.charAt(0).toUpperCase() + p.slice(1));
-  return labelParts.join(' ');
+  const suffix = parts.length > 3 && /^\d+$/.test(parts[parts.length - 1]) ? ` ${parts[parts.length - 1]}` : '';
+  return labelParts.join(' ') + suffix;
 }
 
 function scan(){

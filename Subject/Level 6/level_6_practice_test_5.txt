@@ -1,0 +1,183 @@
+﻿Practice Test 5
+
+Instructions:
+Choose one answer for each question. Each question has four options: A, B, C and D. The answer key is provided at the end.
+1. A company wants staff to make decisions using consistent metrics. What should be established?
+A. A governed data and reporting process *
+B. Different definitions for each team
+C. No shared data access
+D. Personal spreadsheets only
+
+2. Which example shows poor data management?
+A. Validating incoming records
+B. Different teams storing separate uncontrolled copies of the same dataset *
+C. Documenting data lineage
+D. Using access controls
+
+3. A hybrid architecture means the organisation uses...
+A. only handwritten notes
+B. only one spreadsheet
+C. a combination of on-premise and cloud technologies *
+D. no storage at all
+
+4. Which technology is best suited to fast aggregations such as sales by region and month?
+A. Word processor
+B. Email thread
+C. Image editor
+D. Data warehouse or OLAP system *
+
+5. A data lake is usually useful because it can...
+A. store large volumes of raw and varied data *
+B. only store printed reports
+C. remove all governance needs
+D. guarantee perfect models
+
+6. You need to predict whether customers will renew a subscription. Which model type is suitable?
+A. Clustering only
+B. Classification model *
+C. Image resizing
+D. Database backup
+
+7. A model predicts sales revenue as a number. Which task is this?
+A. Classification only
+B. Clustering only
+C. Regression *
+D. Text tokenisation
+
+8. A model is too simple to capture the relationship in the data. What is this called?
+A. Overfitting
+B. Data warehousing
+C. Access control
+D. Underfitting *
+
+9. A classifier correctly identifies most positives but also incorrectly flags many negatives as positives. Which metric pattern is likely?
+A. High recall and lower precision *
+B. Low recall and perfect precision
+C. No false positives
+D. Regression error only
+
+10. A team wants to compare models for a rare event problem. Which metric is often more useful than accuracy alone?
+A. File size
+B. Precision, recall or F1 score *
+C. Number of columns only
+D. Chart height
+
+11. A dataset contains missing postcodes because customers from one region often leave the field blank. What is the best response?
+A. Replace with the same postcode
+B. Ignore the pattern
+C. Investigate systematic missingness *
+D. Delete all regions
+
+12. A column contains both numeric values and text errors such as unknown. What should happen before analysis?
+A. Leave it unchanged
+B. Convert the whole table to an image
+C. Remove the model output
+D. Clean and standardise the column *
+
+13. A team wants to prevent training and test data from containing the same customer journey records. What should they avoid?
+A. Leakage between training and test sets *
+B. Data validation
+C. Source control
+D. Documentation
+
+14. A data scientist uses stratified sampling. What is the purpose?
+A. Remove all minority cases
+B. Maintain important class proportions in samples *
+C. Create unstructured data
+D. Increase file size only
+
+15. A manager asks whether high advertising spend is linked with high sales. What should you examine?
+A. Model deployment logs only
+B. Database passwords
+C. Correlation or related exploratory analysis *
+D. File permissions only
+
+16. A dashboard contains too many detailed tables and confuses executives. What is the best improvement?
+A. Add more raw rows
+B. Remove all labels
+C. Use only technical code
+D. Simplify to key metrics and clear trends *
+
+17. A stakeholder wants to know how much error a forecast typically has in pounds. Which metric is easy to interpret?
+A. Mean Absolute Error *
+B. Accuracy
+C. Recall
+D. Silhouette score
+
+18. A clustering solution is being assessed. Which measure can help judge separation between clusters?
+A. Confusion matrix only
+B. Silhouette score *
+C. Mean squared error only
+D. ROC curve only
+
+19. A team wants to understand why model performance dropped after launch. What should be checked?
+A. Only the heading style
+B. Only the file name
+C. Data drift, concept drift and pipeline changes *
+D. Only the number of slides
+
+20. A model should be monitored in production because...
+A. models are always perfect after launch
+B. monitoring removes all bias
+C. training data never changes
+D. real-world data and performance can change over time *
+
+21. A project uses Git to manage code. What does this support?
+A. Version control and collaboration *
+B. Automatic data cleaning
+C. Perfect model accuracy
+D. Unlimited cloud storage
+
+22. A team runs automated tests before releasing pipeline changes. Why?
+A. To make the data unstructured
+B. To reduce the chance of defects reaching production *
+C. To remove all costs
+D. To increase missing values
+
+23. A business needs an audit trail for model decisions. What should be logged?
+A. Only the analyst's favourite chart
+B. Only the file colour
+C. Inputs, outputs, model version and decision time *
+D. Nothing for privacy reasons
+
+24. A dataset contains names, emails and customer comments. What should be considered before analysis?
+A. Only the font size
+B. Only model speed
+C. Only screen brightness
+D. Privacy, access and data protection requirements *
+
+25. A system classifies images of products into damaged and not damaged. Which task is this?
+A. Computer vision classification *
+B. Relational normalisation
+C. Manual reporting
+D. OLAP aggregation only
+
+26. A customer support tool extracts key topics from complaint text. Which technique is relevant?
+A. Object storage only
+B. Natural Language Processing *
+C. Network routing
+D. Data centre cooling
+
+27. A predictive model is retrained with new data. What should happen before replacing the old model?
+A. Deploy it immediately without testing
+B. Delete all records
+C. Compare performance and check risks against acceptance criteria *
+D. Turn off monitoring
+
+28. A model is very accurate overall but performs poorly for a small customer group. What should be reviewed?
+A. Only the average score
+B. Only the report title
+C. Only data storage cost
+D. Fairness and subgroup performance *
+
+29. An organisation chooses a simpler model because it is easier to maintain and explain. What trade-off is being managed?
+A. Performance, explainability and operational practicality *
+B. Only page layout
+C. Only file compression
+D. Only spelling style
+
+30. You are asked to summarise millions of rows quickly for an initial view. What is a sensible approach?
+A. Manually read every row
+B. Use sampling and summary statistics *
+C. Convert all data to pictures
+D. Avoid exploratory analysis

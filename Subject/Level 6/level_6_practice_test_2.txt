@@ -1,0 +1,183 @@
+﻿Practice Test 2
+
+Instructions:
+Choose one answer for each question. Each question has four options: A, B, C and D. The answer key is provided at the end.
+1. A company wants one trusted version of customer data for reporting. What is the best solution?
+A. Keep separate unofficial spreadsheets
+B. Create governed data pipelines into a central reporting store *
+C. Ask staff to remember the figures
+D. Store all data as screenshots
+
+2. A system must support SQL queries across large historic sales data. Which platform is most suitable?
+A. Text message thread
+B. Drawing tool
+C. Data warehouse *
+D. Personal notebook
+
+3. Which statement best describes a NoSQL database?
+A. It is designed only for printed documents
+B. It cannot store data
+C. It always requires fixed relational joins
+D. It can support flexible data structures such as documents or key-value pairs *
+
+4. An organisation keeps sensitive data in its own data centre but uses cloud analytics for less sensitive workloads. What is this called?
+A. Hybrid architecture *
+B. Data deletion
+C. Manual modelling
+D. Single-user storage
+
+5. A data engineer needs to document where a field came from and how it was transformed. What is being documented?
+A. Model accuracy
+B. Data lineage *
+C. Screen resolution
+D. Chart colour
+
+6. A model predicts whether an email is spam or not spam. What type of problem is this?
+A. Regression
+B. Clustering
+C. Classification *
+D. Forecasting only
+
+7. A regression model consistently predicts values lower than the actual values. What should be investigated?
+A. Whether the labels use capital letters
+B. Only the file extension
+C. The colour of the dashboard
+D. Systematic bias in data or model fit *
+
+8. A classifier has many false positives in fraud detection. What is the business risk?
+A. Genuine customers may be incorrectly flagged *
+B. All fraud will be missed
+C. The data will become unstructured
+D. The model becomes a spreadsheet
+
+9. A team uses k-fold cross-validation. Why is this helpful?
+A. It removes the need for test data forever
+B. It gives a more reliable estimate of performance across different splits *
+C. It guarantees perfect accuracy
+D. It changes classification into clustering
+
+10. A customer churn model has 4% churners and 96% non-churners. Which technique is sensible?
+A. Ignore churners because they are few
+B. Use only accuracy
+C. Use class weighting or resampling *
+D. Convert all records to text
+
+11. A training dataset includes duplicate records for a small group of customers. What could this cause?
+A. Automatic fairness
+B. Perfect sampling
+C. Reduced need for validation
+D. Biased learning and misleading performance *
+
+12. A column contains dates written in several formats. What should be done before modelling?
+A. Standardise and parse the dates consistently *
+B. Replace all dates with the word date
+C. Delete the target variable
+D. Ignore the column name
+
+13. A dataset contains customer review text. Which step converts the text into model-friendly features?
+A. Printing the text
+B. Vectorisation or embedding *
+C. Deleting all customers
+D. Adding page numbers
+
+14. An analyst notices extreme purchase values. What is the best first step?
+A. Delete every large value immediately
+B. Change all values to the mean
+C. Visualise and investigate whether they are errors or genuine outliers *
+D. Ignore them in the report
+
+15. A manager asks whether customer satisfaction is associated with repeat purchase rate. What analysis could help?
+A. File compression
+B. Object detection
+C. Code formatting only
+D. Correlation or association analysis *
+
+16. A model includes too many irrelevant variables and performance drops. Which concept may explain this?
+A. Curse of dimensionality *
+B. Cloud elasticity
+C. Data lineage
+D. Source control
+
+17. A binary classifier threshold is raised from 0.5 to 0.8. What is a likely effect?
+A. Every case becomes positive
+B. Fewer cases are predicted positive *
+C. Recall must increase
+D. Training data disappears
+
+18. A project team wants to make results reproducible. What should they record?
+A. Only the final chart image
+B. Only the analyst's name
+C. Data version, code version, parameters and evaluation method *
+D. Nothing once the model runs
+
+19. A stakeholder wants to understand the main drivers of predicted churn. Which output is useful?
+A. Random customer names
+B. A hidden database password
+C. Unlabelled error logs
+D. Feature importance or local explanation *
+
+20. A simple linear model gives lower accuracy than a more flexible model because the relationship is highly non-linear. What is the likely issue?
+A. Underfitting *
+B. Data leakage
+C. Class imbalance only
+D. Excessive explainability
+
+21. A daily forecast model should be evaluated using future periods after the training period. Why?
+A. It makes the model ignore time
+B. It reflects how forecasting works in real deployment *
+C. It guarantees no missing data
+D. It changes the task to image classification
+
+22. Which tool practice supports safe team development?
+A. Editing production code without checks
+B. Sharing only screenshots
+C. Code reviews and automated testing *
+D. Keeping no history
+
+23. A data source contains PDFs, emails and text notes. How is this data usually described?
+A. Only relational data
+B. Clean numeric data only
+C. A primary key
+D. Unstructured or semi-structured data *
+
+24. A report shows exact customer-level data to people who only need summary trends. What concern does this raise?
+A. Access and privacy risk *
+B. Improved minimisation
+C. Better anonymity
+D. No governance issue
+
+25. A machine learning model automatically retrains every month. What is a key control needed?
+A. No performance comparison
+B. Monitoring and approval checks before deployment *
+C. Deleting the old model immediately without records
+D. Avoiding test data
+
+26. A neural network is considered for tabular data, but the organisation has limited compute resources and needs clear explanations. What should be considered?
+A. Only the font size
+B. Replacing all data with images
+C. Resource constraints and explainability trade-offs *
+D. Avoiding stakeholder input
+
+27. A model is built using a sample that excludes older customers. What risk does this create?
+A. The model will always improve
+B. The model becomes unsupervised
+C. The data becomes relational
+D. The model may not generalise fairly to older customers *
+
+28. An analyst wants to compare predicted probabilities across groups for fairness. What should they examine?
+A. Performance metrics and error patterns by group *
+B. Only the overall file size
+C. Only the database name
+D. The number of slides
+
+29. An application uses an API to send new transactions into a scoring service. What does the API provide?
+A. A replacement for all data governance
+B. A controlled way for systems to communicate *
+C. A printed report
+D. A manual spreadsheet formula only
+
+30. A simulation model is used to test different demand scenarios before making a decision. What is the main value?
+A. It removes uncertainty completely
+B. It replaces all data collection
+C. It supports what-if analysis without changing the real system *
+D. It only creates images

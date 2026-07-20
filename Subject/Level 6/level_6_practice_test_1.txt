@@ -1,0 +1,183 @@
+﻿Practice Test 1
+
+Instructions:
+Choose one answer for each question. Each question has four options: A, B, C and D. The answer key is provided at the end.
+1. A business analyst finds that sales records are held in five different spreadsheets with different product names. What is the best first action?
+A. Create a shared data dictionary and standard naming rules *
+B. Merge the spreadsheets without checking them
+C. Delete the smallest spreadsheet
+D. Ask each team to keep using its own format
+
+2. An organisation wants to store both raw web logs and cleaned reporting data. Which design is most suitable?
+A. A single desktop spreadsheet
+B. A data lakehouse or combined storage and analytics platform *
+C. An email inbox
+D. A presentation file
+
+3. A cloud database automatically increases compute capacity during high demand. Which benefit does this describe?
+A. Data masking
+B. Normalisation
+C. Scalability *
+D. Manual governance
+
+4. A team needs quick summary reports showing revenue by region, product and month. Which system is most appropriate?
+A. Word processor
+B. Flat text editor
+C. Image library
+D. OLAP or data warehouse *
+
+5. You are comparing a relational database with object storage for transaction data. What is a key strength of the relational database?
+A. It supports structured tables, relationships and SQL queries *
+B. It is best for storing unstructured videos only
+C. It removes the need for data quality checks
+D. It cannot enforce data types
+
+6. A dataset contains customer ages, income and spending score. You want to group similar customers without a target label. Which technique should you use?
+A. Linear regression
+B. Clustering *
+C. Confusion matrix
+D. Hypothesis testing
+
+7. A model predicts house prices as continuous values. Which metric is suitable for evaluating it?
+A. Accuracy
+B. F1 score
+C. Mean Absolute Error *
+D. Confusion matrix
+
+8. A classifier identifies fraud cases, but fraud is very rare. Why might accuracy be misleading?
+A. Accuracy always ignores correct predictions
+B. Accuracy only works with text data
+C. Accuracy cannot be calculated for binary models
+D. A model can look accurate by predicting the majority class *
+
+9. A model performs well during development but poorly after deployment because customer behaviour has changed. What is the likely issue?
+A. Concept drift *
+B. Data duplication
+C. One hot encoding
+D. Indexing
+
+10. A bank wants to explain why a machine learning model rejected a loan application. Which approach is most useful?
+A. Removing the applicant record
+B. Model explainability techniques such as SHAP *
+C. Increasing the number of hidden layers only
+D. Changing the file name
+
+11. A dataset has missing values in income because some high earners refuse to disclose it. What should you do first?
+A. Replace all missing values with zero
+B. Delete the income column immediately
+C. Treat the missingness as potentially systematic *
+D. Assume the values are randomly missing
+
+12. A numeric feature ranges from 0 to 1,000,000 while another ranges from 0 to 1. Which preprocessing step may help many algorithms?
+A. Adding more rows manually
+B. Removing the target variable
+C. Creating a pie chart
+D. Standardisation or scaling *
+
+13. A dataset includes job title as a categorical variable. What is a common way to prepare it for many machine learning models?
+A. One hot encoding *
+B. Removing all rows
+C. Sorting alphabetically only
+D. Changing it to a date
+
+14. A team trains a model using future information that would not be available at prediction time. What problem has occurred?
+A. Sampling error only
+B. Data leakage *
+C. Data compression
+D. Normalisation
+
+15. An analyst wants to test whether a marketing campaign changed average spend. Which method is most appropriate?
+A. Image recognition
+B. K means clustering
+C. Hypothesis test comparing means *
+D. Min max scaling
+
+16. A scatterplot shows that as advertising spend increases, sales usually increase. What relationship is being observed?
+A. Negative correlation
+B. No data relationship
+C. Database indexing
+D. Positive correlation *
+
+17. A model has high precision but low recall for identifying churners. What does this mean?
+A. When it predicts churn it is often correct, but it misses many churners *
+B. It finds nearly all churners
+C. It cannot make positive predictions
+D. It is a regression model
+
+18. A business asks for a dashboard for senior leaders who need a quick performance overview. What should you prioritise?
+A. Every raw data row
+B. Clear KPIs, trend lines and concise summaries *
+C. Model code on every page
+D. Unlabelled charts
+
+19. A model is too complex and performs much better on training data than test data. What is the most likely issue?
+A. Underfitting
+B. Correct sampling
+C. Overfitting *
+D. Perfect generalisation
+
+20. A decision tree is chosen over a deep neural network for a simple business rule problem. What is a likely reason?
+A. It never overfits
+B. It only works with images
+C. It does not use data
+D. It is usually easier to explain *
+
+21. You need to process streaming sensor readings and update alerts quickly. What type of processing is most suitable?
+A. Real-time or near real-time processing *
+B. Annual manual reporting only
+C. Printing the data
+D. Storing the data in slides
+
+22. A data pipeline fails because the source system changed a column name. What would help prevent unnoticed failures?
+A. Removing all metadata
+B. Data validation and automated tests *
+C. Using only screenshots
+D. Turning off monitoring
+
+23. Which activity best supports data governance?
+A. Allowing unlimited editing by everyone
+B. Keeping data definitions informal
+C. Defining ownership, access controls and quality standards *
+D. Copying files to personal drives
+
+24. An analyst wants to reduce 80 related variables into fewer components while retaining much of the variation. Which technique could be used?
+A. Confusion matrix
+B. A/B test
+C. Manual typing
+D. Principal Component Analysis *
+
+25. A retailer wants to recommend products based on similar customer behaviour. Which analytical approach is most relevant?
+A. Recommendation modelling *
+B. Text spellchecking only
+C. Manual filing
+D. Data deletion
+
+26. A model predicts delivery time and residuals show larger errors for long-distance deliveries. What should the team investigate?
+A. Whether the chart title is too short
+B. Possible model bias or missing distance-related effects *
+C. Whether emails are archived
+D. Whether the data is stored in PDF only
+
+27. A team wants to choose between several models fairly. What should they use?
+A. Only the model with the longest name
+B. The model trained first
+C. A consistent validation approach and relevant metrics *
+D. The model with the largest file size
+
+28. A developer stores model code with version history so changes can be reviewed. Which practice is this?
+A. Data drift
+B. Manual sampling
+C. Dashboard filtering
+D. Source control *
+
+29. A computer vision model is being developed. What type of data will it mainly analyse?
+A. Images or video frames *
+B. Only relational keys
+C. Only calendar dates
+D. Only database passwords
+
+30. A chatbot needs to understand customer messages. Which area of AI is most relevant?
+A. Object storage
+B. Natural Language Processing *
+C. Database indexing
+D. Network cabling

@@ -1,0 +1,183 @@
+﻿Practice Test 4
+
+Instructions:
+Choose one answer for each question. Each question has four options: A, B, C and D. The answer key is provided at the end.
+1. A company wants to combine operational system data, open data and social media comments. What should be planned carefully?
+A. Only chart colours
+B. Manual deletion of all text
+C. Keeping every source separate forever
+D. Data integration, quality and governance *
+
+2. A relational database is normalised. What is a common benefit?
+A. Reduced duplication and improved consistency *
+B. More duplicate records
+C. No need for keys
+D. Only unstructured storage
+
+3. A team needs flexible storage for JSON documents whose fields may vary. Which database type may be suitable?
+A. Only a fixed spreadsheet
+B. Document-oriented NoSQL database *
+C. A slide master
+D. A printed report
+
+4. A data warehouse stores curated business data, while a data lake stores raw detailed data. What is the key difference?
+A. One stores no data
+B. Only the warehouse can be accessed
+C. Level of structure and processing before use *
+D. Only the lake uses computers
+
+5. A real-time analytics dashboard slows down because queries scan every record repeatedly. What may help?
+A. Removing all validation
+B. Using only paragraphs
+C. Printing results daily
+D. Indexing, aggregation or query optimisation *
+
+6. A model predicts product demand next month. Which type of problem is it?
+A. Forecasting/regression *
+B. Image classification only
+C. Clustering with no time element
+D. Source control
+
+7. A target variable is accidentally included as an input feature. What issue does this create?
+A. Better deployment
+B. Data leakage *
+C. Fair sampling
+D. Code review
+
+8. A dataset has many more examples from one region than another. What should be checked?
+A. Only whether the file opens
+B. Whether there are enough colours
+C. Sampling bias and regional performance *
+D. Whether emails are archived
+
+9. A confusion matrix shows many false negatives for a disease screening model. What does this mean?
+A. Too many healthy people are correctly excluded
+B. The task is regression
+C. There is no target variable
+D. Many actual positives are being missed *
+
+10. A model's F1 score is used instead of accuracy. When is this especially useful?
+A. When classes are imbalanced and both precision and recall matter *
+B. When there is no classification task
+C. When only storage cost matters
+D. When all predictions are continuous
+
+11. A training set has inconsistent units, with some distances in miles and others in kilometres. What should be done?
+A. Average the labels
+B. Convert to a consistent unit *
+C. Ignore the issue
+D. Use the column as text only
+
+12. An analyst wants to detect values that fall far from the normal spending pattern. Which method may help?
+A. One hot encoding only
+B. Code indentation
+C. Outlier detection *
+D. Email forwarding
+
+13. A model is selected purely because it has the best test score, even though it is too slow for production. What was missed?
+A. Question numbering
+B. The title page
+C. A chart legend
+D. Operational constraints *
+
+14. A business requires automated predictions but with human approval for high-risk cases. What approach is this?
+A. Human-in-the-loop decision process *
+B. No governance
+C. Purely unsupervised learning
+D. Manual storage only
+
+15. A data analyst wants to compare the median spend of two customer groups because values are highly skewed. What should they consider?
+A. Only a mean comparison regardless of skew
+B. A suitable non-parametric test or robust comparison *
+C. Object storage
+D. Image augmentation
+
+16. A feature importance chart shows one variable dominates the model. What should the team do?
+A. Delete the model immediately
+B. Assume it is always perfect
+C. Check whether the variable is valid, stable and not leaking information *
+D. Ignore stakeholder questions
+
+17. An unsupervised model finds customer segments, but the segments are not useful for marketing decisions. What is the issue?
+A. All clustering is invalid
+B. The model needs a confusion matrix
+C. The target was too accurate
+D. Technical patterns may not translate into business value *
+
+18. A deep learning model requires more memory and specialist support than the organisation can provide. What should be reviewed?
+A. Feasibility and resource requirements *
+B. Only the slide layout
+C. Whether answer options are capitalised
+D. The spelling of the file name
+
+19. A monitoring report shows that input feature distributions have changed since training. What is this called?
+A. Data lineage
+B. Data drift *
+C. Source control
+D. Normal form
+
+20. A production model has no record of the training data version. What governance problem does this create?
+A. It improves privacy automatically
+B. It makes retraining unnecessary
+C. It is difficult to reproduce or audit the model *
+D. It reduces all risk
+
+21. A team stores passwords in source code. What is the main problem?
+A. Improved explainability
+B. Better modelling accuracy
+C. More reproducible charts
+D. Security risk *
+
+22. A developer writes integration tests for a pipeline that pulls from a database and writes to storage. What do these tests check?
+A. That components work together as expected *
+B. Only the spelling of comments
+C. Only model accuracy
+D. Only dashboard titles
+
+23. A data source is updated by an external provider without warning. What control would help?
+A. No monitoring
+B. Schema checks and data quality alerts *
+C. Manual copying into slides
+D. Removing all metadata
+
+24. A user only needs aggregated regional sales, not individual customer names. Which principle should be applied?
+A. Maximum disclosure
+B. Unlimited access
+C. Data minimisation *
+D. Duplicate storage
+
+25. A model is trained to identify sentiment in reviews. Which output is likely?
+A. Primary keys only
+B. Cloud invoices
+C. Database tables only
+D. Positive, neutral or negative labels *
+
+26. A computer vision system wrongly performs worse under poor lighting. What should be considered?
+A. Training data diversity and real-world conditions *
+B. Only SQL syntax
+C. Only database normalisation
+D. Only chart formatting
+
+27. A simulation is run 1,000 times with different demand assumptions. What can this help estimate?
+A. The exact future with certainty
+B. Range of possible outcomes and risk *
+C. The database password
+D. The number of file pages only
+
+28. A business problem requires choosing stock levels that minimise shortage and holding costs. Which technique may be relevant?
+A. Word clouds only
+B. Manual sorting
+C. Optimisation *
+D. Data deletion
+
+29. A manager asks for model results to be translated into operational actions. What should the analyst provide?
+A. Only raw coefficients without explanation
+B. Only code comments
+C. Only the training file path
+D. Business interpretation and recommended next steps *
+
+30. A team uses a very small test set and results change greatly each time. What should they consider?
+A. More robust validation or more test data *
+B. Deleting validation
+C. Only reporting the best run
+D. Changing all values to text

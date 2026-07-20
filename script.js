@@ -115,6 +115,7 @@
     showPinMessage('Access granted.', false);
     // hide overlay
     if(pinOverlay) pinOverlay.style.display = 'none';
+    document.body.classList.add('is-authenticated');
     // populate topics now that we have permission
     populateTopics();
   });
@@ -205,9 +206,9 @@
     try{ window.scrollTo({top:0,behavior:'auto'}); }catch(e){ window.scrollTo(0,0); }
   }
 
-  function showFront(){ front.classList.remove('hidden'); practice.classList.add('hidden'); result.classList.add('hidden'); }
-  function showPractice(){ front.classList.add('hidden'); practice.classList.remove('hidden'); result.classList.add('hidden'); }
-  function showResult(){ front.classList.add('hidden'); practice.classList.add('hidden'); result.classList.remove('hidden'); computeAndShow(); }
+  function showFront(){ front.classList.remove('hidden'); practice.classList.add('hidden'); result.classList.add('hidden'); reviewSection.classList.add('hidden'); }
+  function showPractice(){ front.classList.add('hidden'); practice.classList.remove('hidden'); result.classList.add('hidden'); reviewSection.classList.add('hidden'); }
+  function showResult(){ front.classList.add('hidden'); practice.classList.add('hidden'); result.classList.remove('hidden'); reviewSection.classList.add('hidden'); computeAndShow(); }
   function showReview(){ front.classList.add('hidden'); practice.classList.add('hidden'); result.classList.add('hidden'); reviewSection.classList.remove('hidden'); }
 
   function renderPage(){
